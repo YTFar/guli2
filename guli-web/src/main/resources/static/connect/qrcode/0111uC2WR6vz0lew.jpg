@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html> <!--<![endif]-->
+
+
+
+<html lang="zh_CN" class="">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>页面找不到 - 谷粒学院 - Java视频|大数据视频|前端视频|HTML5视频|Linux运维视频|Python视频-程序员标配IT在线学习平台 - Powered By EduSoho</title>
+      <meta name="keywords"
+          content="
+谷粒学院,IT在线视频教程,Java视频,HTML5视频,前端视频,Python视频,大数据视频,IT在线学习"/>
+    <meta name="description"
+          content="谷粒学院为尚硅谷旗下IT课程在线学习平台。谷粒学院会同上百个知名开发团队联合制定的Java、前端、大数据、Python、Linux运维等课程，致力于打造业界更适合自学、代码量大、案例多、实战性强、技术贴合企业的IT在线学习平台！"/>
+    <meta content="3mVXQ8p1rPfp_9va8lCDk2xD950ddbFLcwq5xd2xFJM" name="csrf-token"/>
+    <meta content="0" name="is-login"/>
+    <meta content="0" name="wechat_login_bind"/>
+  
+
+  <meta property="qc:admins" content="240444522214751756375" />
+      <link rel="icon" href="/files/system/2017/06-21/160846e883d7292766.ico?version=8.3.2" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/files/system/2017/06-21/160846e883d7292766.ico?version=8.3.2" type="image/x-icon" media="screen"/>
+  
+  <!--[if lt IE 9]>
+  <script src="/static-dist/libs/html5shiv.js?version=8.3.2"></script>
+  <script src="/static-dist/es5-shim/es5-shim.js?version=8.3.2"></script>
+  <script src="/static-dist/es5-shim/es5-sham.js?version=8.3.2"></script>
+  <![endif]-->
+
+              
+    
+<link href="/static-dist/app/css/bootstrap.css?version=8.3.2" rel="stylesheet" />
+
+	<link href="/static-dist/app/css/main.css?version=8.3.2" rel="stylesheet" />
+<link href="/static-dist/app/css/main-v2.css?version=8.3.2" rel="stylesheet" />
+
+
+<link rel="stylesheet" media="screen" href="/themes/june/css/sggn.css?version=8.3.2" />
+<link rel="stylesheet" media="screen" href="/themes/june/css/june-blue.css?version=8.3.2" />
+<link rel="stylesheet" media="screen" href="/themes/june/css/header1.css?version=8.3.2" />  
+  <style>
+    .panel-default > .panel-heading{
+      line-height: normal;
+    }
+  </style>
+
+  </head>
+<body class="es-main-default es-nav-default ">
+
+<!--[if lt IE 9]>
+<script src="/static-dist/libs/fix-ie.js?version=8.3.2"></script>
+<style>
+  .lt-ie9 {
+    overflow: hidden;
+  }
+  .ie-mask {
+    z-index: 999999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    background: #000;
+  }
+  .ie-alert-wrap {
+    position: absolute;
+    z-index: 1000000;
+    margin: -200px auto 0;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .ie-alert {
+    width: 514px;
+    height: 397px;
+    margin: 0 auto;
+  }
+  .ie-alert__chrome,
+  .ie-alert__firefox {
+    position: absolute;
+    z-index: 1000001;
+    display: block;
+    bottom: 48px;
+    width: 60px;
+    height: 80px;
+  }
+  .ie-alert__chrome {
+    left: 50%;
+    margin-left: -80px;
+  }
+  .ie-alert__firefox {
+    right: 50%;
+    margin-right: -80px;
+  }
+</style>
+<div class="ie-mask"></div>
+<div class="ie-alert-wrap">
+  <div class="ie-alert" style="background:url('/static-dist/app/img/browser/browser_update.png?version=8.3.2')">
+    <a href="http://www.baidu.com/s?wd=%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8" target="_blank" class="ie-alert__chrome"></a>
+    <a href="http://firefox.com.cn/download/" target="_blank" class="ie-alert__firefox"></a>
+  </div>
+</div>
+
+<![endif]-->
+
+  <div class="container">
+    <div class="panel panel-default error-panel">
+      <div class="panel-heading">
+        <span class="error-title">404</span>
+      </div>
+      <div class="panel-body">
+        <div class="well">
+          <p>
+                          该内容不存在或已被删除！
+                      </p>
+          <p>请确认您的来源链接是否正确？</p>
+          <p><a href="/?ref=404">返回首页 ></a></p>
+          <span class="error-404-icon hidden-xs"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script>
+  if (typeof app === 'undefined') {
+      var app = {};
+  }
+  app.version = '8.3.2';
+  app.httpHost = 'http://www.gulixueyuan.com';
+  app.basePath = 'http://www.gulixueyuan.com';
+  app.theme = 'june';
+
+    
+  var CLOUD_FILE_SERVER = ""; 
+
+  app.config = {"api":{"weibo":{"key":"101226163"},"qq":{"key":"101226163"},"douban":{"key":""},"renren":{"key":""}},"loading_img_path":"\/assets\/img\/default\/loading.gif?version=8.3.2"};
+
+  app.arguments = {};
+      
+  app.scripts = null;
+
+  app.fileSingleSizeLimit = 10;
+  app.uploadUrl = '/file/upload';
+  app.imgCropUrl = '/file/img/crop';
+  app.lessonCopyEnabled = '1';
+  app.cloudPlayerSdkUrl = '//service-cdn.qiqiuyun.net/js-sdk/sdk-v1.js?15662879';
+  app.cloudPlayServer = '';
+  app.cloudVideoPlayerSdkUrl = '//service-cdn.qiqiuyun.net/js-sdk/video-player/sdk-v1.js?15662879';
+  app.cloudOldUploaderSdkUrl = '//service-cdn.qiqiuyun.net/js-sdk/uploader/sdk-v1.js?15662879';
+  app.cloudOldDocumentSdkUrl = '//service-cdn.qiqiuyun.net/js-sdk/document-player/v7/viewer.html?15662879';
+  app.lang = 'zh_CN';
+</script>
+
+<script src="/bundles/translations/translator.min.js?version=8.3.2"></script>
+
+  <script src="/bundles/translations/zh_CN.js?version=8.3.2"></script>
+      <script src="/static-dist/libs/base.js?version=8.3.2"></script>
+        <script src="/static-dist/app/js/common.js?version=8.3.2"></script>
+        <script src="/static-dist/app/js/main.js?version=8.3.2"></script>
+        <script src="/static-dist/libs/echo-js.js?version=8.3.2"></script>
+        <script src="/static-dist/junetheme/js/default/main.js?version=8.3.2"></script>
+  
+<script type="text/javascript">
+  window.seajsBoot && window.seajsBoot();
+</script>
+
+</body>
+</html>

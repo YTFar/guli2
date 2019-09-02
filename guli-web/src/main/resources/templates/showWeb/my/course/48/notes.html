@@ -1,0 +1,2022 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://www.gulixueyuan.com/my/course/46/notes -->
+<html lang="zh_CN" class=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>Spring4.0 - 谷粒学院 - Java视频|大数据视频|前端视频|HTML5视频|Linux运维视频|Python视频-程序员标配IT在线学习平台 - Powered By EduSoho</title>
+      <meta name="keywords" content="
+谷粒学院,IT在线视频教程,Java视频,HTML5视频,前端视频,Python视频,大数据视频,IT在线学习">
+    <meta name="description" content="谷粉技术交流群与万千谷粉一起学习，点击加入：（群号810889203）Spring4.0是Spring推出的一个重大版本升级，进一步加强了Spring作为Java领域第一开源平台的地位。Spring4...">
+    <meta content="JzxOvm_TfeSV6f5uyzz54llurB6yoZISbdQrzH_xiPk" name="csrf-token">
+    <meta content="1" name="is-login">
+    <meta content="0" name="wechat_login_bind">
+  
+
+  <meta property="qc:admins" content="240444522214751756375">
+      <link rel="icon" href="http://www.gulixueyuan.com/files/system/2017/06-21/160846e883d7292766.ico?version=8.3.2" type="image/x-icon">
+    <link rel="shortcut icon" href="http://www.gulixueyuan.com/files/system/2017/06-21/160846e883d7292766.ico?version=8.3.2" type="image/x-icon" media="screen">
+  
+  <!--[if lt IE 9]>
+    <script src="../../../static-dist/libs/html5shiv-8.3.2.js"></script>
+    <script src="../../../static-dist/es5-shim/es5-shim-8.3.2.js"></script>
+    <script src="../../../static-dist/es5-shim/es5-sham-8.3.2.js"></script>
+  <![endif]-->
+
+
+
+    <link href="../../../static-dist/app/css/bootstrap-8.3.2.css" rel="stylesheet">
+    <link href="../../../static-dist/app/css/main-8.3.2.css" rel="stylesheet">
+    <link href="../../../static-dist/app/css/main-v2-8.3.2.css" rel="stylesheet">
+
+    <link rel="stylesheet" media="screen" href="../../../themes/june/css/sggn-8.3.2.css">
+    <link rel="stylesheet" media="screen" href="../../../themes/june/css/june-blue-8.3.2.css">
+    <link rel="stylesheet" media="screen" href="../../../themes/june/css/header1-8.3.2.css">
+  </head>
+<body class="es-main-default es-nav-default course-dashboard-page">
+
+<!--[if lt IE 9]>
+<script src="../../../static-dist/libs/fix-ie-8.3.2.js"></script>
+<style>
+  .lt-ie9 {
+    overflow: hidden;
+  }
+  .ie-mask {
+    z-index: 999999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    background: #000;
+  }
+  .ie-alert-wrap {
+    position: absolute;
+    z-index: 1000000;
+    margin: -200px auto 0;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .ie-alert {
+    width: 514px;
+    height: 397px;
+    margin: 0 auto;
+  }
+  .ie-alert__chrome,
+  .ie-alert__firefox {
+    position: absolute;
+    z-index: 1000001;
+    display: block;
+    bottom: 48px;
+    width: 60px;
+    height: 80px;
+  }
+  .ie-alert__chrome {
+    left: 50%;
+    margin-left: -80px;
+  }
+  .ie-alert__firefox {
+    right: 50%;
+    margin-right: -80px;
+  }
+</style>
+<div class="ie-mask"></div>
+<div class="ie-alert-wrap">
+  <div class="ie-alert" style="background:url('/static-dist/app/img/browser/browser_update.png?version=8.3.2')">
+    <a href="http://www.baidu.com/s?wd=%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8" target="_blank" class="ie-alert__chrome"></a>
+    <a href="http://firefox.com.cn/download/" target="_blank" class="ie-alert__firefox"></a>
+  </div>
+</div>
+
+<![endif]-->
+
+  <div class="es-wrap">
+
+                  <style type="text/css">
+  @charset "UTF-8";
+.header{
+    height: 60px;
+    background-color: #282d30;
+    box-shadow: none;
+}
+.h-con{
+    height: 60px;
+    box-shadow:none;
+    background-color: #282d30;
+}
+.nav-list a{
+  color: #fff;
+}
+.userName {
+    color: #fff;
+}
+.nav-list .nav-course:hover{
+  background:#282d30;
+}
+.nav-list .nav-course.active:hover{
+  background:#61b13b;
+}
+.login-after:hover .login-after-top {
+    color:#fff;
+  background-color:#000;
+}
+
+@media (max-width: 767px) {
+    body.homepage .es-wrap, body.course-list-page .es-wrap, body.open-course-list .es-wrap, body.course-dashboard-page .es-wrap, body.login .es-wrap, body.register .es-wrap, body.my-course .es-wrap {
+        padding-top: 0;
+    }
+}
+
+</style>
+      <header class="header">
+          <div class="relative h-con">
+              <div class="logo-con absolute">
+                  <a href="../../../index.html" class="logo relative" id="logo">
+                      <img src="../../../files/system/2017/06-30/1639175a2152619987.png">
+                  </a>
+              </div>
+              <div class="slogan">
+                  <div class="slogan-t">谷粉力挺老学员推荐</div>
+                  <div class="slogan-b">尚硅谷旗下线上平台</div>
+              </div>
+              <div class="header-search">
+                  <form action="/search" method="get" id="searchForm">
+                      <div class="header-search-input-wrap">
+                          <input type="text" class="js-header-search header-search-input" placeholder="搜索课程" value=""
+                                 name="q">
+                          <span class="header-search-icon"></span>
+                      </div>
+                  </form>
+              </div>
+
+              <div class="main-width relative main-width-q">
+                  <nav class="float-right">
+                      <ul class="nav-list">
+                          <li><a href="../../../index.html" class="active">首页</a></li>
+                          <li class="relative">
+                              <a class=" nav-course" href="../../../course/explore.html">课程</a>
+                          </li>
+                          <li class="top-nav"><a href="javascript:">学习路线图</a>
+                              <div class="sub-nav">
+                                  <ul>
+                                      <li><a href="../../../path/java.html" target="_blank">Java开发</a></li>
+                                      <li><a href="../../../path/bigdata.html" target="_blank">大数据</a></li>
+                                      <li><a href="../../../path/front.html" target="_blank">前端开发</a></li>
+                                      <li><a href="../../../course/explore/linux.html" target="_blank">Linux运维</a></li>
+                                      <li><a href="../../../path/android.html" target="_blank">Android</a></li>
+                                  </ul>
+                              </div>
+                          </li>
+                          <li><a target="_blank" href="javascript:;">面授高薪班</a></li>
+                          <!-- <li>
+                              <a href="/path/join" target="_blank">讲师合作</a>
+                          </li> -->
+                      </ul>
+                  </nav>
+                  <div class="q-btn-con bg-icon" onclick="headerToggle()"></div>
+
+                  <!--登录前显示-->
+                  <div class="absolute login-box login-before">
+                      <p>
+                          <span class="bg-icon"></span>
+                          <a href="../../../login.html">登录</a>
+                          <span>/</span>
+                          <a href="../../../register.html">注册</a>
+                      </p>
+                  </div>
+                  <!--end 登录前-->
+
+
+              </div>
+          </div>
+      </header>
+            <div class="event-report" data-url="/event/dispatch" data-event-name="course.view" data-subject-type="course" data-subject-id="46" data-user-id="67691"></div>
+        
+  
+<!-- 3、加入后：任务式学习 -->
+<div class="container">
+  <ol class="breadcrumb breadcrumb-o">
+    <li><a href="../../../index.html">首页</a></li>
+          <li><a href="#">Java</a></li>
+          <li><a href="#">Spring4</a></li>
+              <li><a href="#">Spring4.0 </a></li>
+      <li class="active"> </li>
+      </ol>
+
+      <div class="es-section course-detail-section course-detail-section--normal  clearfix">
+          <div class="course-detail-top clearfix">
+                <span class="tags mrm">
+                  </span>
+        <span class="course-detail-heading">
+                      
+                                          <span class="es-qrcode top pt5 hidden-xs" data-url="/course/46/qrcode">
+              <i class="es-icon es-icon-qrcode"></i>
+              <span class="qrcode-popover">
+                <img src="http://www.gulixueyuan.com/my/course/46/notes" alt="">
+                扫二维码继续学习 二维码时效为半小时
+              </span>
+            </span>
+                  </span>
+                                <ul class="course-operation  course-operation--normal   hidden-xs hidden-sm clearfix">
+          <!--非营销页显示-->
+                                
+          <!--营销页显示-->
+          
+          <li class="es-share top">
+            <a class="btn btn-default btn-xs dropdown-toggle" href="http://www.gulixueyuan.com/my/course/46/notes" data-toggle="dropdown" title="分享">
+              <i class="es-icon es-icon-share"></i>
+            </a>
+              
+            
+<div class="dropdown-menu  js-social-share-params" data-title="Spring4.0" data-summary="谷粉技术交流群 与万千谷粉一起学习，点击加入：（群号810889203  ）Spring4.0是 S..." data-message="我正在学习《Spring4.0》，收获巨大哦，一起来学习吧！" data-url="http://www.gulixueyuan.com/course/46" data-picture="http://www.gulixueyuan.com/files/default/2018/06-14/1709299c081b334852.jpg">
+  
+  <a href="javascript:;" class="js-social-share" data-cmd="weixin" title="分享到微信" data-share="weixin" data-qrcode-url="/common/qrcode?text=http%3A//www.gulixueyuan.com/course/46"><i class="es-icon es-icon-weixin"></i></a>
+  <a href="javascript:;" class="js-social-share" data-cmd="tsina" title="分享到新浪微博" data-share="weibo"><i class="es-icon es-icon-weibo"></i></a>
+  <a href="javascript:;" class="js-social-share" data-cmd="qq" title="分享到QQ好友" data-share="qq"><i class="es-icon es-icon-qq"></i></a>
+  <a href="javascript:;" class="js-social-share" data-cmd="qzone" title="分享到QQ空间" data-share="qzone"><i class="es-icon es-icon-qzone"></i></a>
+
+</div>
+          </li>
+
+          
+
+                              			<li>
+		  <a class="btn btn-default btn-xs" data-toggle="modal" data-target="#modal" data-url="/course/show_exit_modal?action=/course/46/exit"><i class="es-icon es-icon-exit"></i>
+		  </a>
+		</li>
+	        </ul>
+
+      </div>
+        
+		<!-- 2、加入后：自由式学习 -->
+		<section class="course-freelearn-section">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="course-progress">
+        <div class="cricle-progress" id="freeprogress" data-percent="0">
+          <span class="percent">学习进度<br><span class="num">0%</span></span>
+        <!--<canvas height="181" width="181" style="height: 146px; width: 146px;"></canvas>--></div>
+      </div>
+    </div>
+    <div class="col-md-7 hidden-xs hidden-sm">
+      <ul class="clearfix text-12 course-learn-list ">
+        <li>
+          <p class="mb15 color-gray">
+            <i class="es-icon es-icon-iccheckcircleblack24px mrm"></i>已完成
+          </p>
+          <span class="text-16"><span class="color-primary">0</span> / <span class="mrl">37</span>
+          任务</span>
+        </li>
+        <li>
+          <p class="mb15 color-gray">
+            <i class="es-icon es-icon-today mrm"></i>学习有效期
+          </p>
+          <span class="text-16">
+                        永久有效
+                 </span>
+        </li>
+        <li>
+          <p class="mb15 color-gray">
+            <i class="es-icon es-icon-book mrm"></i>下一学习任务
+          </p>
+                      <a class="link-dark text-16" href="http://www.gulixueyuan.com/course/46/task/1059/show">Spring_HelloWor...</a>
+                  </li>
+      </ul>
+          </div>
+          <div class="col-md-2 hidden-xs hidden-sm pt10">
+              <a class="btn btn-primary btn-lg " href="http://www.gulixueyuan.com/course/46/task/1059/show">
+              开始学习
+          </a>
+        </div>
+      </div>
+  <div class="course-detail-section-responsive visible-xs visible-sm clearfix">
+  <ul class="clearfix">
+    <!--营销页显示-->
+        <li class="es-share top   learn-es-share ">
+      <a class=" dropdown-toggle" href="http://www.gulixueyuan.com/my/course/46/notes" data-toggle="dropdown" title="分享">
+        <i class="es-icon es-icon-share"></i>
+        <br>
+        分享
+      </a>
+        
+            
+<div class="dropdown-menu  js-social-share-params" data-title="Spring4.0" data-summary="谷粉技术交流群 与万千谷粉一起学习，点击加入：（群号810889203  ）Spring4.0是 S..." data-message="我正在学习《Spring4.0》，收获巨大哦，一起来学习吧！" data-url="http://www.gulixueyuan.com/course/46" data-picture="http://www.gulixueyuan.com/files/default/2018/06-14/1709299c081b334852.jpg">
+  
+  <a href="javascript:;" class="js-social-share" data-cmd="weixin" title="分享到微信" data-share="weixin" data-qrcode-url="/common/qrcode?text=http%3A//www.gulixueyuan.com/course/46"><i class="es-icon es-icon-weixin"></i></a>
+  <a href="javascript:;" class="js-social-share" data-cmd="tsina" title="分享到新浪微博" data-share="weibo"><i class="es-icon es-icon-weibo"></i></a>
+  <a href="javascript:;" class="js-social-share" data-cmd="qq" title="分享到QQ好友" data-share="qq"><i class="es-icon es-icon-qq"></i></a>
+  <a href="javascript:;" class="js-social-share" data-cmd="qzone" title="分享到QQ空间" data-share="qzone"><i class="es-icon es-icon-qzone"></i></a>
+
+</div>
+    </li>
+    
+  </ul>
+</div>
+<div class="text-right buy-btn-group visible-xs visible-sm">
+  <span class="mr20">完成任务：0 / 37</span>
+
+            <a class="btn btn-primary btn-lg " href="http://www.gulixueyuan.com/course/46/task/1059/show">
+              开始学习
+          </a>
+    </div>
+</section>
+	  </div>
+</div>
+
+
+  
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 col-md-8 course-detail-content">
+              
+        
+
+        <section class="es-section">
+            <div class="nav-btn-tab">
+
+                <ul class="nav nav-tabs " role="tablist">
+                    <li role="presentation" id="tasks" class="active">
+                        <a href="../../../my/course/48.html">
+                            目录
+                        </a>
+                    </li>
+                    <li role="presentation" id="threads" class="">
+                        <a href="../../../my/course/48/threads.html">
+                            话题
+                            <small>(43)</small>
+                        </a>
+                    </li>
+                    <li role="presentation" id="notes" class="">
+                        <a href="../../../my/course/48/notes.html">
+                            笔记
+                            <small>(252)</small>
+                        </a>
+                    </li>
+                    <li role="presentation" id="material" class="">
+                        <a href="../../../my/course/48/material.html">
+                            资料区
+                            <small>(1)</small>
+                        </a>
+                    </li>
+                    <li role="presentation" id="reviews" class="">
+                        <a href="../../../my/course/48/reviews.html">
+                            评价
+                            <small>(26)</small>
+                        </a>
+                    </li>
+                    <li role="presentation" id="summary" class="">
+                        <a href="../../../my/course/48/summary.html">
+                            介绍
+                        </a>
+                    </li>
+                    <li class="highlight" style="left: 0.00229994px; width: 92px;"></li></ul>
+
+            </div>
+                      
+  
+
+      
+  <div class="note-filter nav-filter clearfix">
+    <div class="btn-group">
+      <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                          全部任务
+                <span class="caret"></span>
+      </button>
+              <ul class="dropdown-menu" role="menu">
+          <li class="active">
+            <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=0&amp;selectedCourse=0#notes">
+              全部任务
+            </a>
+          </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1059&amp;selectedCourse=0#notes" title="Spring_HelloWorld">
+                Spring_HelloWorl...
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=3012&amp;selectedCourse=0#notes" title="Spring_HelloWorld-下载资料">
+                Spring_HelloWorl...
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1060&amp;selectedCourse=0#notes" title="Spring_IOC&amp;amp;DI概述">
+                Spring_IOC&amp;D...
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1061&amp;selectedCourse=0#notes" title="Spring_配置Bean">
+                Spring_配置Bean
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1062&amp;selectedCourse=0#notes" title="Spring_属性配置细节">
+                Spring_属性配置细节
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1063&amp;selectedCourse=0#notes" title="Spring_自动装配">
+                Spring_自动装配
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1064&amp;selectedCourse=0#notes" title="Spring_Bean之间的关系">
+                Spring_Bean之间的关系
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1065&amp;selectedCourse=0#notes" title="Spring_Bean的作用域">
+                Spring_Bean的作用域
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1066&amp;selectedCourse=0#notes" title="Spring_使用外部属性文件">
+                Spring_使用外部属性文件
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1067&amp;selectedCourse=0#notes" title="Spring_SpEL">
+                Spring_SpEL
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1068&amp;selectedCourse=0#notes" title="Spring_管理Bean的生命周期">
+                Spring_管理Bean的生命...
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1069&amp;selectedCourse=0#notes" title="Spring_通过工厂方法配置Bean">
+                Spring_通过工厂方法配置B...
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1070&amp;selectedCourse=0#notes" title="Spring_通过FactoryBean配置Bean">
+                Spring_通过Factory...
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1071&amp;selectedCourse=0#notes" title="Spring_通过注解配置Bean(1)">
+                Spring_通过注解配置Bea...
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1072&amp;selectedCourse=0#notes" title="Spring_通过注解配置Bean(2)">
+                Spring_通过注解配置Bea...
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1073&amp;selectedCourse=0#notes" title="Spring_泛型依赖注入">
+                Spring_泛型依赖注入
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1074&amp;selectedCourse=0#notes" title="Spring_AOP基础">
+                Spring_AOP基础
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1075&amp;selectedCourse=0#notes" title="Spring_前置通知">
+                Spring_前置通知
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1076&amp;selectedCourse=0#notes" title="Spring_后置通知">
+                Spring_后置通知
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1077&amp;selectedCourse=0#notes" title="Spring_返回通知&amp;amp;异常通知&amp;amp;环绕通知">
+                Spring_返回通知&amp;...
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1078&amp;selectedCourse=0#notes" title="Spring_切面的优先级">
+                Spring_切面的优先级
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1079&amp;selectedCourse=0#notes" title="Spring_重用切点表达式">
+                Spring_重用切点表达式
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1080&amp;selectedCourse=0#notes" title="Spring_基于配置文件的方式来配置AOP">
+                Spring_基于配置文件的方式...
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1081&amp;selectedCourse=0#notes" title="Spring_使用JdbcTemplate和JdbcDaoSupport">
+                Spring_使用JdbcTem...
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1082&amp;selectedCourse=0#notes" title="Spring_使用NamedParameterJdbcTemplate">
+                Spring_使用NamedPa...
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1083&amp;selectedCourse=0#notes" title="Spring_事务准备">
+                Spring_事务准备
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1084&amp;selectedCourse=0#notes" title="Spring_声明式事务">
+                Spring_声明式事务
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1085&amp;selectedCourse=0#notes" title="Spring_事务的传播行为">
+                Spring_事务的传播行为
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1086&amp;selectedCourse=0#notes" title="Spring_事务其他属性(隔离级别&amp;amp;回滚&amp;amp;只读&amp;amp;过期)">
+                Spring_事务其他属性(隔离...
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1087&amp;selectedCourse=0#notes" title="Spring_使用XML文件的方式配置事务">
+                Spring_使用XML文件的方...
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1088&amp;selectedCourse=0#notes" title="Spring_整合Hibernate准备">
+                Spring_整合Hiberna...
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1089&amp;selectedCourse=0#notes" title="Spring_整合Hibernate配置">
+                Spring_整合Hiberna...
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1090&amp;selectedCourse=0#notes" title="Spring_整合Hibernate代码测试">
+                Spring_整合Hiberna...
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1091&amp;selectedCourse=0#notes" title="Spring_整合Hibernate不适用Hibernate配置文件">
+                Spring_整合Hiberna...
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1092&amp;selectedCourse=0#notes" title="Spring_在WEB应用中使用Spring的基本思路">
+                Spring_在WEB应用中使用...
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1093&amp;selectedCourse=0#notes" title="Spring_在WEB应用中使用Spring">
+                Spring_在WEB应用中使用...
+              </a>
+            </li>
+                      <li class="">
+              <a href="http://www.gulixueyuan.com/my/course/46/notes?sort=latest&amp;task=1094&amp;selectedCourse=0#notes" title="Spring_集成Struts2">
+                Spring_集成Struts2
+              </a>
+            </li>
+                  </ul>
+          </div>
+
+    <ul class="nav nav-pills nav-pills-sm">
+      <li class="dropdown hidden-xs">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://www.gulixueyuan.com/my/course/46/notes#">
+          <span>排序：</span>
+                      最新笔记
+                    <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu hidden-xs">
+          <li class="active">
+            <a href="http://www.gulixueyuan.com/course/46/notes?sort=latest&amp;task=0&amp;selectedCourse=0#notes">
+              最新笔记
+            </a>
+          </li>
+          <li class="">
+            <a href="http://www.gulixueyuan.com/course/46/notes?sort=like&amp;task=0&amp;selectedCourse=0#notes">
+              点赞最多
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+  </div>
+
+  <div class="note-list" id="note-list">
+                      <div class="media note-item">
+        <div class="media-left">
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/29687" data-card-url="/user/29687/card/show" data-user-id="29687">
+            <img class="avatar-sm" src="./笔记_files/1355462bd8a1897791.jpg">
+          </a>
+        </div>
+        <div class="media-body">
+          <div class="content">
+            <div class="editor-text">
+                          <p>生命周期：调用构造方法，设置属性，init初始化方法，返回bean实例，关闭的时候调用destroy</p>
+
+        
+            </div>
+          </div>
+          <a href="javascript:;" class="more js-more-show">
+            <span class="js-change-btn">[展开全文]</span>
+            <span class="js-change-btn" style="display: none;">[收起全文]</span>
+          </a>
+          <div class="metas clearfix">
+            <a class="link-dark name" href="http://www.gulixueyuan.com/user/29687">饿货</a>
+            · <span>7天前</span>
+                          ·               <a href="http://www.gulixueyuan.com/course/46/task/1068/show" class="period" target="_blank">
+                Spring_管理Bean的生命周期
+              </a>
+                                    <span class="metas-sns">
+              <span class="icon-favour">
+                <a href="javascript:;" class="js-like " data-like-url="/note/17031/like" data-cancel-like-url="/note/17031/cancel_like">
+                  <i class="es-icon es-icon-thumbup"></i>
+                  <span class="js-like-num">0</span>
+                </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+                      <div class="media note-item">
+        <div class="media-left">
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/29687" data-card-url="/user/29687/card/show" data-user-id="29687">
+            <img class="avatar-sm" src="./笔记_files/1355462bd8a1897791.jpg">
+          </a>
+        </div>
+        <div class="media-body">
+          <div class="content">
+            <div class="editor-text">
+                <p>可以使用&lt;context:property-placeholder location="classpath:db.properties"/&gt;</p>
+
+            </div>
+          </div>
+          <a href="javascript:;" class="more js-more-show">
+            <span class="js-change-btn">[展开全文]</span>
+            <span class="js-change-btn" style="display: none;">[收起全文]</span>
+          </a>
+          <div class="metas clearfix">
+            <a class="link-dark name" href="http://www.gulixueyuan.com/user/29687">饿货</a>
+            · <span>7天前</span>
+                          ·               <a href="http://www.gulixueyuan.com/course/46/task/1066/show" class="period" target="_blank">
+                Spring_使用外部属性文件
+              </a>
+                                    <span class="metas-sns">
+              <span class="icon-favour">
+                <a href="javascript:;" class="js-like " data-like-url="/note/17030/like" data-cancel-like-url="/note/17030/cancel_like">
+                  <i class="es-icon es-icon-thumbup"></i>
+                  <span class="js-like-num">0</span>
+                </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+                      <div class="media note-item">
+        <div class="media-left">
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/29687" data-card-url="/user/29687/card/show" data-user-id="29687">
+            <img class="avatar-sm" src="./笔记_files/1355462bd8a1897791.jpg">
+          </a>
+        </div>
+        <div class="media-body">
+          <div class="content">
+            <div class="editor-text">
+                <p>scope属性可以配置bean的作用域，默认为 singleton单例。返回bean都是一个实例。创建容器的时候会创建好bean。</p>
+
+<p>&nbsp;prototype原型的，不是单例的bean，创建容器的时候不会创建好bean，在容器中获取bean的时候才会创建bean，并且每次获取都会创建新的bean。&nbsp;</p>
+
+<p>&nbsp;</p>
+
+            </div>
+          </div>
+          <a href="javascript:;" class="more js-more-show" style="display: inline;">
+            <span class="js-change-btn">[展开全文]</span>
+            <span class="js-change-btn" style="display: none;">[收起全文]</span>
+          </a>
+          <div class="metas clearfix">
+            <a class="link-dark name" href="http://www.gulixueyuan.com/user/29687">饿货</a>
+            · <span>7天前</span>
+                          ·               <a href="http://www.gulixueyuan.com/course/46/task/1065/show" class="period" target="_blank">
+                Spring_Bean的作用域
+              </a>
+                                    <span class="metas-sns">
+              <span class="icon-favour">
+                <a href="javascript:;" class="js-like " data-like-url="/note/17029/like" data-cancel-like-url="/note/17029/cancel_like">
+                  <i class="es-icon es-icon-thumbup"></i>
+                  <span class="js-like-num">0</span>
+                </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+                      <div class="media note-item">
+        <div class="media-left">
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/29687" data-card-url="/user/29687/card/show" data-user-id="29687">
+            <img class="avatar-sm" src="./笔记_files/1355462bd8a1897791.jpg">
+          </a>
+        </div>
+        <div class="media-body">
+          <div class="content">
+            <div class="editor-text">
+                <p>使用构造方法注入的时候，只能通过参数类型来区分重载的构造器。参数位置只能控制当前要向哪个属性赋值。</p>
+
+            </div>
+          </div>
+          <a href="javascript:;" class="more js-more-show">
+            <span class="js-change-btn">[展开全文]</span>
+            <span class="js-change-btn" style="display: none;">[收起全文]</span>
+          </a>
+          <div class="metas clearfix">
+            <a class="link-dark name" href="http://www.gulixueyuan.com/user/29687">饿货</a>
+            · <span>7天前</span>
+                          ·               <a href="http://www.gulixueyuan.com/course/46/task/1061/show" class="period" target="_blank">
+                Spring_配置Bean
+              </a>
+                                    <span class="metas-sns">
+              <span class="icon-favour">
+                <a href="javascript:;" class="js-like " data-like-url="/note/17028/like" data-cancel-like-url="/note/17028/cancel_like">
+                  <i class="es-icon es-icon-thumbup"></i>
+                  <span class="js-like-num">0</span>
+                </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+                      <div class="media note-item">
+        <div class="media-left">
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/57508" data-card-url="/user/57508/card/show" data-user-id="57508">
+            <img class="avatar-sm" src="./笔记_files/16143282b74a695872.jpg">
+          </a>
+        </div>
+        <div class="media-body">
+          <div class="content">
+            <div class="editor-text">
+                          <p>s'd</p>
+
+        
+            </div>
+          </div>
+          <a href="javascript:;" class="more js-more-show">
+            <span class="js-change-btn">[展开全文]</span>
+            <span class="js-change-btn" style="display: none;">[收起全文]</span>
+          </a>
+          <div class="metas clearfix">
+            <a class="link-dark name" href="http://www.gulixueyuan.com/user/57508">zhengyiyan</a>
+            · <span>15天前</span>
+                          ·               <a href="http://www.gulixueyuan.com/course/46/task/1070/show" class="period" target="_blank">
+                Spring_通过FactoryBean配置Bean
+              </a>
+                                    <span class="metas-sns">
+              <span class="icon-favour">
+                <a href="javascript:;" class="js-like " data-like-url="/note/16876/like" data-cancel-like-url="/note/16876/cancel_like">
+                  <i class="es-icon es-icon-thumbup"></i>
+                  <span class="js-like-num">0</span>
+                </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+                      <div class="media note-item">
+        <div class="media-left">
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/57508" data-card-url="/user/57508/card/show" data-user-id="57508">
+            <img class="avatar-sm" src="./笔记_files/16143282b74a695872.jpg">
+          </a>
+        </div>
+        <div class="media-body">
+          <div class="content">
+            <div class="editor-text">
+                <p>f</p>
+
+            </div>
+          </div>
+          <a href="javascript:;" class="more js-more-show">
+            <span class="js-change-btn">[展开全文]</span>
+            <span class="js-change-btn" style="display: none;">[收起全文]</span>
+          </a>
+          <div class="metas clearfix">
+            <a class="link-dark name" href="http://www.gulixueyuan.com/user/57508">zhengyiyan</a>
+            · <span>15天前</span>
+                          ·               <a href="http://www.gulixueyuan.com/course/46/task/1061/show" class="period" target="_blank">
+                Spring_配置Bean
+              </a>
+                                    <span class="metas-sns">
+              <span class="icon-favour">
+                <a href="javascript:;" class="js-like " data-like-url="/note/16863/like" data-cancel-like-url="/note/16863/cancel_like">
+                  <i class="es-icon es-icon-thumbup"></i>
+                  <span class="js-like-num">0</span>
+                </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+                      <div class="media note-item">
+        <div class="media-left">
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/47287" data-card-url="/user/47287/card/show" data-user-id="47287">
+            <img class="avatar-sm" src="./笔记_files/10315282ebcf884740.jpg">
+          </a>
+        </div>
+        <div class="media-body">
+          <div class="content">
+            <div class="editor-text">
+                <p><strong>qualifier 预选 在容器中使用@autowired 的时候 有相同的bean 使用@qualifier进行筛选</strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+            </div>
+          </div>
+          <a href="javascript:;" class="more js-more-show">
+            <span class="js-change-btn">[展开全文]</span>
+            <span class="js-change-btn" style="display: none;">[收起全文]</span>
+          </a>
+          <div class="metas clearfix">
+            <a class="link-dark name" href="http://www.gulixueyuan.com/user/47287">怕麻烦</a>
+            · <span>18天前</span>
+                          ·               <a href="http://www.gulixueyuan.com/course/46/task/1072/show" class="period" target="_blank">
+                Spring_通过注解配置Bean(2)
+              </a>
+                                    <span class="metas-sns">
+              <span class="icon-favour">
+                <a href="javascript:;" class="js-like " data-like-url="/note/16813/like" data-cancel-like-url="/note/16813/cancel_like">
+                  <i class="es-icon es-icon-thumbup"></i>
+                  <span class="js-like-num">0</span>
+                </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+                      <div class="media note-item">
+        <div class="media-left">
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/63193" data-card-url="/user/63193/card/show" data-user-id="63193">
+            <img class="avatar-sm" src="./笔记_files/085958e66cca086980.jpg">
+          </a>
+        </div>
+        <div class="media-body">
+          <div class="content">
+            <div class="editor-text">
+                <p>Spring是非侵入的,</p>
+
+<p>依赖注入 dependency injection</p>
+
+<p>面向切面编程&nbsp;</p>
+
+            </div>
+          </div>
+          <a href="javascript:;" class="more js-more-show">
+            <span class="js-change-btn">[展开全文]</span>
+            <span class="js-change-btn" style="display: none;">[收起全文]</span>
+          </a>
+          <div class="metas clearfix">
+            <a class="link-dark name" href="http://www.gulixueyuan.com/user/63193">再无生离</a>
+            · <span>22天前</span>
+                          ·               <a href="http://www.gulixueyuan.com/course/46/task/1059/show" class="period" target="_blank">
+                Spring_HelloWorld
+              </a>
+                                    <span class="metas-sns">
+              <span class="icon-favour">
+                <a href="javascript:;" class="js-like " data-like-url="/note/16698/like" data-cancel-like-url="/note/16698/cancel_like">
+                  <i class="es-icon es-icon-thumbup"></i>
+                  <span class="js-like-num">0</span>
+                </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+                      <div class="media note-item">
+        <div class="media-left">
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/66335" data-card-url="/user/66335/card/show" data-user-id="66335">
+            <img class="avatar-sm" src="./笔记_files/10315282ebcf884740.jpg">
+          </a>
+        </div>
+        <div class="media-body">
+          <div class="content">
+            <div class="editor-text">
+                <p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+            </div>
+          </div>
+          <a href="javascript:;" class="more js-more-show">
+            <span class="js-change-btn">[展开全文]</span>
+            <span class="js-change-btn" style="display: none;">[收起全文]</span>
+          </a>
+          <div class="metas clearfix">
+            <a class="link-dark name" href="http://www.gulixueyuan.com/user/66335">不见再见</a>
+            · <span>26天前</span>
+                          ·               <a href="http://www.gulixueyuan.com/course/46/task/1059/show" class="period" target="_blank">
+                Spring_HelloWorld
+              </a>
+                                    <span class="metas-sns">
+              <span class="icon-favour">
+                <a href="javascript:;" class="js-like " data-like-url="/note/16636/like" data-cancel-like-url="/note/16636/cancel_like">
+                  <i class="es-icon es-icon-thumbup"></i>
+                  <span class="js-like-num">0</span>
+                </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+                      <div class="media note-item">
+        <div class="media-left">
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/66139" data-card-url="/user/66139/card/show" data-user-id="66139">
+            <img class="avatar-sm" src="./笔记_files/09505711e500162028.jpg">
+          </a>
+        </div>
+        <div class="media-body">
+          <div class="content">
+            <div class="editor-text">
+                <p>Spring:&nbsp;</p>
+
+<p>轻量级，依赖注入，面向切面编程，容器，框架，一站式的</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+            </div>
+          </div>
+          <a href="javascript:;" class="more js-more-show" style="display: inline;">
+            <span class="js-change-btn">[展开全文]</span>
+            <span class="js-change-btn" style="display: none;">[收起全文]</span>
+          </a>
+          <div class="metas clearfix">
+            <a class="link-dark name" href="http://www.gulixueyuan.com/user/66139">superzheng</a>
+            · <span>28天前</span>
+                          ·               <a href="http://www.gulixueyuan.com/course/46/task/1059/show" class="period" target="_blank">
+                Spring_HelloWorld
+              </a>
+                                    <span class="metas-sns">
+              <span class="icon-favour">
+                <a href="javascript:;" class="js-like " data-like-url="/note/16581/like" data-cancel-like-url="/note/16581/cancel_like">
+                  <i class="es-icon es-icon-thumbup"></i>
+                  <span class="js-like-num">0</span>
+                </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+                      <div class="media note-item">
+        <div class="media-left">
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/61571" data-card-url="/user/61571/card/show" data-user-id="61571">
+            <img class="avatar-sm" src="./笔记_files/1042019e31ba339204.jpg">
+          </a>
+        </div>
+        <div class="media-body">
+          <div class="content">
+            <div class="editor-text">
+                <p>Trandactional</p>
+
+            </div>
+          </div>
+          <a href="javascript:;" class="more js-more-show">
+            <span class="js-change-btn">[展开全文]</span>
+            <span class="js-change-btn" style="display: none;">[收起全文]</span>
+          </a>
+          <div class="metas clearfix">
+            <a class="link-dark name" href="http://www.gulixueyuan.com/user/61571">抱歉亏欠</a>
+            · <span>07-29</span>
+                          ·               <a href="http://www.gulixueyuan.com/course/46/task/1084/show" class="period" target="_blank">
+                Spring_声明式事务
+              </a>
+                                    <span class="metas-sns">
+              <span class="icon-favour">
+                <a href="javascript:;" class="js-like " data-like-url="/note/16544/like" data-cancel-like-url="/note/16544/cancel_like">
+                  <i class="es-icon es-icon-thumbup"></i>
+                  <span class="js-like-num">0</span>
+                </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+                      <div class="media note-item">
+        <div class="media-left">
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/61571" data-card-url="/user/61571/card/show" data-user-id="61571">
+            <img class="avatar-sm" src="./笔记_files/1042019e31ba339204.jpg">
+          </a>
+        </div>
+        <div class="media-body">
+          <div class="content">
+            <div class="editor-text">
+                <p>Spring 中的事物管理&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>1：事物就是一系列的动作 它们被当做一个</p>
+
+<p>2：细节问题&nbsp; rruntimeExceotion</p>
+
+<p>3：库存不足</p>
+
+<p>&nbsp;</p>
+
+            </div>
+          </div>
+          <a href="javascript:;" class="more js-more-show" style="display: inline;">
+            <span class="js-change-btn">[展开全文]</span>
+            <span class="js-change-btn" style="display: none;">[收起全文]</span>
+          </a>
+          <div class="metas clearfix">
+            <a class="link-dark name" href="http://www.gulixueyuan.com/user/61571">抱歉亏欠</a>
+            · <span>07-29</span>
+                          ·               <a href="http://www.gulixueyuan.com/course/46/task/1083/show" class="period" target="_blank">
+                Spring_事务准备
+              </a>
+                                    <span class="metas-sns">
+              <span class="icon-favour">
+                <a href="javascript:;" class="js-like " data-like-url="/note/16538/like" data-cancel-like-url="/note/16538/cancel_like">
+                  <i class="es-icon es-icon-thumbup"></i>
+                  <span class="js-like-num">0</span>
+                </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+                      <div class="media note-item">
+        <div class="media-left">
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/61571" data-card-url="/user/61571/card/show" data-user-id="61571">
+            <img class="avatar-sm" src="./笔记_files/1042019e31ba339204.jpg">
+          </a>
+        </div>
+        <div class="media-body">
+          <div class="content">
+            <div class="editor-text">
+                <p>若有多个参数，则不不用再去对应置 直接对应参数名 便于维护</p>
+
+            </div>
+          </div>
+          <a href="javascript:;" class="more js-more-show">
+            <span class="js-change-btn">[展开全文]</span>
+            <span class="js-change-btn" style="display: none;">[收起全文]</span>
+          </a>
+          <div class="metas clearfix">
+            <a class="link-dark name" href="http://www.gulixueyuan.com/user/61571">抱歉亏欠</a>
+            · <span>07-29</span>
+                          ·               <a href="http://www.gulixueyuan.com/course/46/task/1082/show" class="period" target="_blank">
+                Spring_使用NamedParameterJdbcTemplate
+              </a>
+                                    <span class="metas-sns">
+              <span class="icon-favour">
+                <a href="javascript:;" class="js-like " data-like-url="/note/16537/like" data-cancel-like-url="/note/16537/cancel_like">
+                  <i class="es-icon es-icon-thumbup"></i>
+                  <span class="js-like-num">0</span>
+                </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+                      <div class="media note-item">
+        <div class="media-left">
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/65126" data-card-url="/user/65126/card/show" data-user-id="65126">
+            <img class="avatar-sm" src="./笔记_files/090546a68629736034.jpg">
+          </a>
+        </div>
+        <div class="media-body">
+          <div class="content">
+            <div class="editor-text">
+                <pre style="background-color:#ffffff;color:#000000;font-family:&#39;宋体&#39;;font-size:9pt;"><span style="color:#1abc9c;"><span style="font-style:italic;">bean的abstract属性为true的bean不能被IoC容器实例化,</span></span>
+</pre>
+
+<pre style="background-color:#ffffff;color:#000000;font-family:&#39;宋体&#39;;font-size:9pt;"><span style="color:#2ecc71;"><span style="font-style:italic;">bean的继承，使用bean的parent属性指定哪个bean的配置</span></span></pre>
+
+<p>&nbsp;</p>
+
+            </div>
+          </div>
+          <a href="javascript:;" class="more js-more-show" style="display: inline;">
+            <span class="js-change-btn">[展开全文]</span>
+            <span class="js-change-btn" style="display: none;">[收起全文]</span>
+          </a>
+          <div class="metas clearfix">
+            <a class="link-dark name" href="http://www.gulixueyuan.com/user/65126">月落孤山</a>
+            · <span>07-28</span>
+                          ·               <a href="http://www.gulixueyuan.com/course/46/task/1064/show" class="period" target="_blank">
+                Spring_Bean之间的关系
+              </a>
+                                    <span class="metas-sns">
+              <span class="icon-favour">
+                <a href="javascript:;" class="js-like " data-like-url="/note/16526/like" data-cancel-like-url="/note/16526/cancel_like">
+                  <i class="es-icon es-icon-thumbup"></i>
+                  <span class="js-like-num">0</span>
+                </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+                      <div class="media note-item">
+        <div class="media-left">
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/61571" data-card-url="/user/61571/card/show" data-user-id="61571">
+            <img class="avatar-sm" src="./笔记_files/1042019e31ba339204.jpg">
+          </a>
+        </div>
+        <div class="media-body">
+          <div class="content">
+            <div class="editor-text">
+                          <p>配置bean</p>
+
+<p>配置形式：基于XML文件的方式；基于注解的方式（基于注解配置Bean；基于注解来装配Bean的属性）</p>
+
+<p>Bean 的配置方式：通过全类名（反射），通过工厂方法（静态工厂方法&amp;实例工厂方法），factoryBean</p>
+
+<p>IOC 容器BeanFactory</p>
+
+        
+            </div>
+          </div>
+          <a href="javascript:;" class="more js-more-show" style="display: inline;">
+            <span class="js-change-btn">[展开全文]</span>
+            <span class="js-change-btn" style="display: none;">[收起全文]</span>
+          </a>
+          <div class="metas clearfix">
+            <a class="link-dark name" href="http://www.gulixueyuan.com/user/61571">抱歉亏欠</a>
+            · <span>07-25</span>
+                          ·               <a href="http://www.gulixueyuan.com/course/46/task/1071/show" class="period" target="_blank">
+                Spring_通过注解配置Bean(1)
+              </a>
+                                    <span class="metas-sns">
+              <span class="icon-favour">
+                <a href="javascript:;" class="js-like " data-like-url="/note/16460/like" data-cancel-like-url="/note/16460/cancel_like">
+                  <i class="es-icon es-icon-thumbup"></i>
+                  <span class="js-like-num">0</span>
+                </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+                      <div class="media note-item">
+        <div class="media-left">
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/61391" data-card-url="/user/61391/card/show" data-user-id="61391">
+            <img class="avatar-sm" src="./笔记_files/221230ebe757366249.jpg">
+          </a>
+        </div>
+        <div class="media-body">
+          <div class="content">
+            <div class="editor-text">
+                <p><span style="color:#c0392b;">所有使用@Autowired必须要加上注解才能找的到类的实例。 要不然会报错！！</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#c0392b;">@Qualifier自动扫描指定的实例</span></p>
+
+            </div>
+          </div>
+          <a href="javascript:;" class="more js-more-show">
+            <span class="js-change-btn">[展开全文]</span>
+            <span class="js-change-btn" style="display: none;">[收起全文]</span>
+          </a>
+          <div class="metas clearfix">
+            <a class="link-dark name" href="http://www.gulixueyuan.com/user/61391">nmdnmd99</a>
+            · <span>07-03</span>
+                          ·               <a href="http://www.gulixueyuan.com/course/46/task/1072/show" class="period" target="_blank">
+                Spring_通过注解配置Bean(2)
+              </a>
+                                    <span class="metas-sns">
+              <span class="icon-favour">
+                <a href="javascript:;" class="js-like " data-like-url="/note/15785/like" data-cancel-like-url="/note/15785/cancel_like">
+                  <i class="es-icon es-icon-thumbup"></i>
+                  <span class="js-like-num">0</span>
+                </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+                      <div class="media note-item">
+        <div class="media-left">
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/61391" data-card-url="/user/61391/card/show" data-user-id="61391">
+            <img class="avatar-sm" src="./笔记_files/221230ebe757366249.jpg">
+          </a>
+        </div>
+        <div class="media-body">
+          <div class="content">
+            <div class="editor-text">
+                <p>扫描需要的包</p>
+
+<p>&lt;context:component-scan base-package="com.*" resource -pattern="com.controller"&nbsp;&gt; 代表扫描com包下带有注解的所有文件</p>
+
+<p>resource -pattern属性来扫描指定资源</p>
+
+<p>@Controller ：表示表现层</p>
+
+<p>@Service：标识业务层</p>
+
+<p>@Repository：标识持久层</p>
+
+<p>@Component:基本注解，管理组件信息</p>
+
+<p>在Spring里面AOP是分辨不出来谁用在哪里的，但是开始时还是要按照注解的用意来去定义。&nbsp;</p>
+
+            </div>
+          </div>
+          <a href="javascript:;" class="more js-more-show" style="display: inline;">
+            <span class="js-change-btn">[展开全文]</span>
+            <span class="js-change-btn" style="display: none;">[收起全文]</span>
+          </a>
+          <div class="metas clearfix">
+            <a class="link-dark name" href="http://www.gulixueyuan.com/user/61391">nmdnmd99</a>
+            · <span>07-03</span>
+                          ·               <a href="http://www.gulixueyuan.com/course/46/task/1071/show" class="period" target="_blank">
+                Spring_通过注解配置Bean(1)
+              </a>
+                                    <span class="metas-sns">
+              <span class="icon-favour">
+                <a href="javascript:;" class="js-like " data-like-url="/note/15784/like" data-cancel-like-url="/note/15784/cancel_like">
+                  <i class="es-icon es-icon-thumbup"></i>
+                  <span class="js-like-num">0</span>
+                </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+                      <div class="media note-item">
+        <div class="media-left">
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/61391" data-card-url="/user/61391/card/show" data-user-id="61391">
+            <img class="avatar-sm" src="./笔记_files/221230ebe757366249.jpg">
+          </a>
+        </div>
+        <div class="media-body">
+          <div class="content">
+            <div class="editor-text">
+                <p><span style="color:#e74c3c;"><strong>Spring使用外部属性文件</strong></span></p>
+
+<p><span style="color:#000000;"><strong>首先要在beans里面引入schema/context</strong></span></p>
+
+<p><span style="color:#000000;"><b>在通过&lt;context:property-placeholder/&gt;标签来导入属性文件</b></span></p>
+
+<p><span style="color:#000000;"><b>例如：</b></span></p>
+
+<p><span style="color:#000000;"><b>&lt;context:property-placeholder location="classpath:xx.properties/&gt;</b></span></p>
+
+<p><span style="color:#000000;"><b>然后通过${xx}来获取properties文件中的值</b></span></p>
+
+            </div>
+          </div>
+          <a href="javascript:;" class="more js-more-show" style="display: inline;">
+            <span class="js-change-btn">[展开全文]</span>
+            <span class="js-change-btn" style="display: none;">[收起全文]</span>
+          </a>
+          <div class="metas clearfix">
+            <a class="link-dark name" href="http://www.gulixueyuan.com/user/61391">nmdnmd99</a>
+            · <span>07-02</span>
+                          ·               <a href="http://www.gulixueyuan.com/course/46/task/1066/show" class="period" target="_blank">
+                Spring_使用外部属性文件
+              </a>
+                                    <span class="metas-sns">
+              <span class="icon-favour">
+                <a href="javascript:;" class="js-like " data-like-url="/note/15770/like" data-cancel-like-url="/note/15770/cancel_like">
+                  <i class="es-icon es-icon-thumbup"></i>
+                  <span class="js-like-num">0</span>
+                </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+                      <div class="media note-item">
+        <div class="media-left">
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/61391" data-card-url="/user/61391/card/show" data-user-id="61391">
+            <img class="avatar-sm" src="./笔记_files/221230ebe757366249.jpg">
+          </a>
+        </div>
+        <div class="media-body">
+          <div class="content">
+            <div class="editor-text">
+                <p><span style="color:#c0392b;"><strong>使用bean的scope属性来配置bean的作用域</strong></span></p>
+
+<p><span style="color:#2c3e50;"><strong>singleton:默认值，容器初始化时创建bean实例，在整个容器的生命周期内只创建这一个bean,单例的；</strong></span></p>
+
+<p><span style="color:#2c3e50;"><strong>prototype: 原型的，容器初始化不创建bean的实例，而在每次请求时都创建一个新的Bean实例，并返回；</strong></span></p>
+
+            </div>
+          </div>
+          <a href="javascript:;" class="more js-more-show">
+            <span class="js-change-btn">[展开全文]</span>
+            <span class="js-change-btn" style="display: none;">[收起全文]</span>
+          </a>
+          <div class="metas clearfix">
+            <a class="link-dark name" href="http://www.gulixueyuan.com/user/61391">nmdnmd99</a>
+            · <span>07-02</span>
+                          ·               <a href="http://www.gulixueyuan.com/course/46/task/1065/show" class="period" target="_blank">
+                Spring_Bean的作用域
+              </a>
+                                    <span class="metas-sns">
+              <span class="icon-favour">
+                <a href="javascript:;" class="js-like " data-like-url="/note/15769/like" data-cancel-like-url="/note/15769/cancel_like">
+                  <i class="es-icon es-icon-thumbup"></i>
+                  <span class="js-like-num">0</span>
+                </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+                      <div class="media note-item">
+        <div class="media-left">
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/60348" data-card-url="/user/60348/card/show" data-user-id="60348">
+            <img class="avatar-sm" src="./笔记_files/22502515669e960637.jpg">
+          </a>
+        </div>
+        <div class="media-body">
+          <div class="content">
+            <div class="editor-text">
+                                    <p>bean得后置处理器</p>
+
+<p>实现BeanPostProcessor接口 并且提供两个方法</p>
+
+<p>before。。init-method之前被调用</p>
+
+<p>after&nbsp; 。。。init-method 之后被调用</p>
+
+<p>bean实例本身</p>
+
+<p>beanname :IOC容器配置bean得名字</p>
+
+<p>返回值：是实际上返回给用户得那个bean，注意：可以在以上两个方法中修改返回得bean，甚至返回一个新得bean</p>
+
+<p>&nbsp;</p>
+
+        
+        
+            </div>
+          </div>
+          <a href="javascript:;" class="more js-more-show" style="display: inline;">
+            <span class="js-change-btn">[展开全文]</span>
+            <span class="js-change-btn" style="display: none;">[收起全文]</span>
+          </a>
+          <div class="metas clearfix">
+            <a class="link-dark name" href="http://www.gulixueyuan.com/user/60348">至尊宝111</a>
+            · <span>07-01</span>
+                          ·               <a href="http://www.gulixueyuan.com/course/46/task/1068/show" class="period" target="_blank">
+                Spring_管理Bean的生命周期
+              </a>
+                                    <span class="metas-sns">
+              <span class="icon-favour">
+                <a href="javascript:;" class="js-like " data-like-url="/note/15740/like" data-cancel-like-url="/note/15740/cancel_like">
+                  <i class="es-icon es-icon-thumbup"></i>
+                  <span class="js-like-num">0</span>
+                </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    
+                <nav class=" text-center">
+      <ul class="pagination cd-pagination">
+                          <li class="active"><a href="http://www.gulixueyuan.com/my/course/46/notes?page=1">1</a></li>
+                  <li><a href="http://www.gulixueyuan.com/my/course/46/notes?page=2">2</a></li>
+                  <li><a href="http://www.gulixueyuan.com/my/course/46/notes?page=3">3</a></li>
+                  <li><a href="http://www.gulixueyuan.com/my/course/46/notes?page=4">4</a></li>
+                  <li><a href="http://www.gulixueyuan.com/my/course/46/notes?page=5">5</a></li>
+        
+                  <li><a href="http://www.gulixueyuan.com/my/course/46/notes?page=2"><i class="cd-icon cd-icon-arrow-right"></i></a></li>
+          <li><a href="http://www.gulixueyuan.com/my/course/46/notes?page=21"><i class="cd-icon cd-icon-last-page"></i></a></li>
+              </ul>
+    </nav>
+  
+    
+  </div>
+
+
+                  </section>
+
+            
+      </div>
+
+      <div class="col-lg-3 col-md-4 course-sidebar">
+
+        
+
+
+                                                    
+                                                                                    
+                                                                  <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">最新学员</h3>
+  </div>
+  <div class="panel-body">
+    <ul class="user-avatar-list clearfix">
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/23647" data-card-url="/user/23647/card/show" data-user-id="23647" data-original-title="" title="">
+            <img class="avatar-sm" src="./笔记_files/10315282ebcf884740.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/51560" data-card-url="/user/51560/card/show" data-user-id="51560" data-original-title="" title="">
+            <img class="avatar-sm" src="./笔记_files/133159f37627189007.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/53774" data-card-url="/user/53774/card/show" data-user-id="53774" data-original-title="" title="">
+            <img class="avatar-sm" src="./笔记_files/10315282ebcf884740.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/58944" data-card-url="/user/58944/card/show" data-user-id="58944" data-original-title="" title="">
+            <img class="avatar-sm" src="./笔记_files/090047f22dcf310618.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/61996" data-card-url="/user/61996/card/show" data-user-id="61996" data-original-title="" title="">
+            <img class="avatar-sm" src="./笔记_files/10315282ebcf884740.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/62994" data-card-url="/user/62994/card/show" data-user-id="62994" data-original-title="" title="">
+            <img class="avatar-sm" src="./笔记_files/10315282ebcf884740.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/63317" data-card-url="/user/63317/card/show" data-user-id="63317" data-original-title="" title="">
+            <img class="avatar-sm" src="./笔记_files/10315282ebcf884740.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/64323" data-card-url="/user/64323/card/show" data-user-id="64323" data-original-title="" title="">
+            <img class="avatar-sm" src="./笔记_files/10315282ebcf884740.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/66580" data-card-url="/user/66580/card/show" data-user-id="66580" data-original-title="" title="">
+            <img class="avatar-sm" src="./笔记_files/1647313840ac014419.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/67691" data-card-url="/user/67691/card/show" data-user-id="67691" data-original-title="" title="">
+            <img class="avatar-sm" src="./笔记_files/10315282ebcf884740.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/67815" data-card-url="/user/67815/card/show" data-user-id="67815" data-original-title="" title="">
+            <img class="avatar-sm" src="./笔记_files/1038179b5f04197503.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/67845" data-card-url="/user/67845/card/show" data-user-id="67845" data-original-title="" title="">
+            <img class="avatar-sm" src="./笔记_files/1536535865aa864827.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/68573" data-card-url="/user/68573/card/show" data-user-id="68573" data-original-title="" title="">
+            <img class="avatar-sm" src="./笔记_files/080359f96967122549.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/68592" data-card-url="/user/68592/card/show" data-user-id="68592" data-original-title="" title="">
+            <img class="avatar-sm" src="./笔记_files/103602210aab150088.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/68604" data-card-url="/user/68604/card/show" data-user-id="68604" data-original-title="" title="">
+            <img class="avatar-sm" src="./笔记_files/11122260585a481942.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/68605" data-card-url="/user/68605/card/show" data-user-id="68605" data-original-title="" title="">
+            <img class="avatar-sm" src="./笔记_files/111507b71075965118.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/68606" data-card-url="/user/68606/card/show" data-user-id="68606" data-original-title="" title="">
+            <img class="avatar-sm" src="./笔记_files/111834a93c02718848.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/68639" data-card-url="/user/68639/card/show" data-user-id="68639" data-original-title="" title="">
+            <img class="avatar-sm" src="./笔记_files/1328397b0017372906.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/68645" data-card-url="/user/68645/card/show" data-user-id="68645" data-original-title="" title="">
+            <img class="avatar-sm" src="./笔记_files/1403280c7b96978384.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/68657" data-card-url="/user/68657/card/show" data-user-id="68657" data-original-title="" title="">
+            <img class="avatar-sm" src="./笔记_files/10315282ebcf884740.jpg">
+          </a>
+        </li>
+          </ul>
+  </div>
+</div>
+
+                                                                    
+<div class="panel panel-default">
+
+  <div class="panel-heading">
+    <h3 class="panel-title"><i class="es-icon es-icon-recentactors"></i>学员动态</h3>
+  </div>
+
+  <div class="panel-body">
+                          <div class="media media-number-o color-gray text-overflow">
+                <a class="link-dark " href="http://www.gulixueyuan.com/user/68451">Ade_</a>
+  
+            
+  开始学习 <a class="link-dark" href="http://www.gulixueyuan.com/course/46/task/1060/show?from=student_status" title="Spring_IOC&amp;amp;DI概述">Spring_IOC&amp;...</a>
+
+          </div>
+                                 <div class="media media-number-o color-gray text-overflow">
+                <a class="link-dark " href="http://www.gulixueyuan.com/user/68451">Ade_</a>
+  
+            
+  开始学习 <a class="link-dark" href="http://www.gulixueyuan.com/course/46/task/3012/show?from=student_status" title="Spring_HelloWorld-下载资料">Spring_HelloWor...</a>
+
+          </div>
+                                 <div class="media media-number-o color-gray text-overflow">
+                <a class="link-dark " href="http://www.gulixueyuan.com/user/68451">Ade_</a>
+  
+            
+  完成了 <a class="link-dark" href="http://www.gulixueyuan.com/course/46/task/1059/show?from=student_status" title="Spring_HelloWorld">Spring_HelloWor...</a>
+
+          </div>
+                                 <div class="media media-number-o color-gray text-overflow">
+                <a class="link-dark " href="http://www.gulixueyuan.com/user/67691">Strive_Hao</a>
+  
+            
+		    	    			加入学习
+			  
+
+          </div>
+                                 <div class="media media-number-o color-gray text-overflow">
+                <a class="link-dark " href="http://www.gulixueyuan.com/user/53774">小学弟</a>
+  
+            
+  开始学习 <a class="link-dark" href="http://www.gulixueyuan.com/course/46/task/1071/show?from=student_status" title="Spring_通过注解配置Bean(1)">Spring_通过注解配置Be...</a>
+
+          </div>
+               
+      </div>
+
+</div>
+                                    </div>
+
+    </div>
+  </div>
+
+        
+    
+
+  
+
+          <div class="sgg_bot">
+    <div class="sgg_bot1">
+      <div class="sgg_bot1topbig">
+          <div class="sgg_bot1top">
+              <div class="sgg_bottopimg"><img src="../../../themes/june/img/bot1.png">业界大牛亲自授课</div>
+              <div class="sgg_bottopimg"><img src="../../../themes/june/img/bot2.png">前沿技术实时更新</div>
+              <div class="sgg_bottopimg sgg_bottopimg3"><img src="../../../themes/june/img/bot3.png">足不出户免费学编程</div>
+          </div>
+      </div>
+      <div class="sgg_botcenter">
+        <div class="sgg_botleft">
+            <ul>
+                <li><b>新手入门</b></li>
+                <li><a href="http://www.gulixueyuan.com/register?goto=/my/course/46/notes">新用户注册</a></li>
+                <li><a href="http://www.gulixueyuan.com/login?goto=/my/course/46/notes">用户登录</a></li>
+                <li><a href="http://www.gulixueyuan.com/password/reset">找回密码</a></li>
+            </ul>          
+            <ul>
+                <li><b>关于我们</b></li>
+                <li><a href="http://www.atguigu.com/teacher.shtml" target="_blank">名师团队</a></li>
+                <li><a href="http://www.atguigu.com/news.shtml" target="_blank">新闻动态</a></li>
+                <li><a href="http://www.atguigu.com/zhaopin.shtml" target="_blank">合作企业</a></li>
+            </ul>
+            <ul>
+                <li><b>资源下载</b></li>
+                <li><a href="http://www.atguigu.com/download.shtml" target="_blank">视频下载</a></li>
+                <li><a href="http://www.atguigu.com/opensource.shtml" target="_blank">资料下载</a></li>
+                <li><a href="http://www.atguigu.com/opensource.shtml#2" target="_blank">工具下载</a></li>
+            </ul>
+            <ul>
+                <li><b>联系我们</b></li>
+                <li><a href="http://search.51job.com/list/co,c,3261804,000000,10,1.html" target="_blank">工作机会</a></li>
+                <li><a href="http://www.atguigu.com/join.shtml" target="_blank">招贤纳师</a></li>
+                <li><a href="http://www.gulixueyuan.com/page/contacts" target="_blank">联系方式</a></li>
+            </ul>
+        </div>
+            <div class="sgg_botright">
+                <img src="../../../themes/june/img/wx.png" width="110" height="110" alt="关注尚硅谷微信 一键下载全部视频教程" title="关注尚硅谷微信 一键下载全部视频教程">
+                <p>关注尚硅谷微信</p>
+                <p>一键下载全部视频教程</p>
+            </div>
+        </div>
+          </div>
+</div>
+        <div class="sgg_botbotbg">
+          <div class="sgg_botbot">
+          <p>
+            
+            
+            ©2018课程版权均归<a href="http://www.gulixueyuan.com/">谷粒学院</a>所有&nbsp;            <a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备17055252号</a>
+                      </p>
+          </div>
+        </div>
+
+<!-- toolbar -->
+<style type="text/css">
+.toolbar {
+  position:fixed;
+  right:10px;
+  bottom:4%;
+  z-index:1020;
+  -webkit-transition:all .3s;
+  -moz-transition:all .3s;
+  -ms-transition:all .3s;
+  -o-transition:all .3s;
+  transition:all .3s
+}
+.toolbarbox {
+  width:52px;
+  background:#fff;
+  position:fixed;
+  right:0;
+  bottom: 10px;
+  color:#fff
+}
+.toolbarbox img {
+  display: block;
+  border:0;
+  max-width:100%;
+  margin: 5px auto;
+}
+
+.mobel {
+  width:52px;
+  height:56px;
+  text-align:center;
+  position:relative;
+  cursor:pointer
+}
+.mobel >a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.tb-qq{
+    background: url(../../../themes/june/img/toolbar/qq-gray-8.3.2.png) no-repeat center center;
+}
+.tb-qq:hover{
+    background: url(../../../themes/june/img/toolbar/qq-green-8.3.2.png) no-repeat center center;
+}
+.tb-tel{
+    background: url(../../../themes/june/img/toolbar/phone-8.3.2.png) no-repeat center center;
+}
+.tb-tel:hover{
+    background: url(../../../themes/june/img/toolbar/phone-green-8.3.2.png) no-repeat center center;
+}
+.tb-mail{
+    background: url(../../../themes/june/img/toolbar/mail-gray-8.3.2.png) no-repeat center center;
+}
+.tb-mail:hover{
+    background: url(../../../themes/june/img/toolbar/mail-green-8.3.2.png) no-repeat center center;
+}
+
+.tb-zx{
+    background: url(../../../themes/june/img/toolbar/zx-green-8.3.2.png) no-repeat center center;
+}
+.tb-zx a,.tb-zx a:hover,.tb-zx a:active,.tb-zx a:visited{
+    color: #fff;
+}
+
+.tb-wx{
+    background: url(../../../themes/june/img/toolbar/weixin-gray-8.3.2.png) no-repeat center center;
+}
+.tb-wx:hover{
+    background: url(../../../themes/june/img/toolbar/weixin-green-8.3.2.png) no-repeat center center;
+}
+.tb-top{
+    background: url(../../../themes/june/img/toolbar/top-gray-8.3.2.png) no-repeat center center;
+}
+.tb-top:hover{
+    background: url(../../../themes/june/img/toolbar/top-green-8.3.2.png) no-repeat center center;
+}
+
+.mobel:hover .hidemobelBox{
+  display: block;
+}
+.hidemobelBox {
+  /*width:110px;
+  padding:10px;*/
+  background:none;
+  display:none;
+  position:absolute;
+  right:50px;
+  top:17px;
+ 
+}
+.hidemobelBox-content{
+    width:110px;
+    padding:10px;
+    background:#fff;
+    position:relative;
+    cursor:pointer;
+    font-weight:700;
+    text-align:center;
+    line-height:30px;
+    color: #999;
+    font-size: 12px;
+    margin-right: 15px;
+    position: relative;
+}
+.hidemobelBox a{
+  cursor:pointer;
+  font-weight:700;
+  text-align:left;
+  line-height:30px;
+  color: #999;
+}
+
+
+.tb-wx .hidemobelBox {
+  padding-top: 8px;
+  height:auto;
+  text-align:center;
+  line-height: 25px;
+  font-size: 12px;
+  top: -35px;
+}
+.tb-wx .hidemobelBox:after {
+ 
+  top:24px;
+ 
+}
+.tb-wx .hidemobelBox img{
+  width: 100%;
+  margin: 0;
+}
+
+.tb-wx .hidemobelBox-content:after {
+  top:50px;
+}
+
+
+.hidemobelBox-content:after {
+  content:'';
+  position:absolute;
+  top:6px;
+  right:-8px;
+  display:block;
+  border-top:8px solid transparent;
+  border-bottom:8px solid transparent;
+  border-left:8px solid #fff
+}
+
+.tool-line {
+  width:25px;
+  height:1px;
+  border-bottom:1px solid #e7e7e7;
+  margin:0 auto;
+}
+
+@-webkit-keyframes ball-scale {
+  0% {
+    -webkit-transform:scale(0);
+    transform:scale(0)
+  }
+  100% {
+    -webkit-transform:scale(1);
+    transform:scale(1);
+    opacity:0
+  }
+}
+
+@keyframes ball-scale {
+  0% {
+    -webkit-transform:scale(0);
+    transform:scale(0)
+  }
+  100% {
+    -webkit-transform:scale(1);
+    transform:scale(1);
+    opacity:0
+  }
+}
+
+.hidemsg {
+  width:210px;
+  height:40px;
+  line-height:28px;
+  background:#10c46e;
+  text-align:center;
+  overflow:hidden
+}
+.hidemsg div {
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:auto;
+  pointer-events:none;
+  background-color:#fff;
+  -webkit-border-radius:100%;
+  -moz-border-radius:100%;
+  -o-border-radius:100%;
+  -ms-border-radius:100%;
+  border-radius:100%;
+  -webkit-animation-fill-mode:both;
+  -moz-animation-fill-mode:both;
+  -ms-animation-fill-mode:both;
+  -o-animation-fill-mode:both;
+  animation-fill-mode:both;
+  display:inline-block;
+  width:204px;
+  height:204px;
+  -webkit-animation:ball-scale 1s 0s ease-in-out infinite;
+  -moz-animation:ball-scale 1s 0s ease-in-out infinite;
+  -ms-animation:ball-scale 1s 0s ease-in-out infinite;
+  -o-animation:ball-scale 1s 0s ease-in-out infinite;
+  animation:ball-scale 1s 0s ease-in-out infinite
+}
+.hidemsg p {
+  line-height:40px;
+  color:#fff;
+  font-weight:700;
+  font-size:16px
+}
+.hidemsgAfter {
+  width:225px;
+  height:40px;
+  position:relative;
+  left:-222px;
+  top:-45px;
+  overflow:hidden;
+  cursor:pointer
+}
+.hidemsgAfter :after {
+  content:'';
+  position:absolute;
+  top:11px;
+  right:7px;
+  display:block;
+  border-top:8px solid transparent;
+  border-bottom:8px solid transparent;
+  border-left:8px solid #10c46e
+}
+
+@media (max-width: 767px) {
+   .toolbar{
+    display: none;
+   }
+}
+
+</style>
+
+<div class="toolbar">
+<div class="toolbarbox">
+
+
+  <div class="mobel tb-zx">
+    <a href="https://tb.53kf.com/code/client/10007377/1" target="_blank">
+    </a>
+    <div class="hidemsgAfter"><div class="hidemsg"><p><a target="_blank" href="https://tb.53kf.com/code/client/10007377/1">现在就与学习导师聊一聊</a></p><div></div></div></div>
+  </div>
+  <div class="tool-line"></div>
+
+  
+  <div class="mobel tb-qq">
+    <a href="https://jq.qq.com/?_wv=1027&amp;k=5ckaUWz" target="_blank">
+    </a>
+    <div class="hidemobelBox">
+      <div class="hidemobelBox-content">
+        <a href="https://jq.qq.com/?_wv=1027&amp;k=5ckaUWz" target="_blank">
+             <img src="../../../themes/june/img/toolbar/qqun-8.3.2.png">
+          加入技术交流群
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="tool-line"></div>
+
+  <div class="mobel tb-wx">
+    <div class="hidemobelBox">
+      <div class="hidemobelBox-content">
+        <img src="../../../themes/june/img/toolbar/weixin-2-8.3.2.png">
+  关注微信
+      </div>
+  </div>
+  </div>
+  <div class="tool-line"></div>
+  <div class="mobel tb-top">
+    <a href="http://www.gulixueyuan.com/my/course/46/notes#">
+      </a>
+  </div>
+</div>
+</div>        
+<!--<script src="./笔记_files/push.js.下载"></script>--><script type="text/javascript">
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1264603569'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/stat.php%3Fid%3D1264603569' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1264603569"><a href="https://www.cnzz.com/stat/website.php?web_id=1264603569" target="_blank" title="站长统计">站长统计</a></span><script src="./笔记_files/stat.php" type="text/javascript"></script><script src="./笔记_files/core.php" charset="utf-8" type="text/javascript"></script>    
+        
+      </div>
+
+        
+    
+        
+      
+  <div id="login-modal" class="modal" data-url="/login/ajax"></div>
+  <div id="modal" class="modal"></div>
+  <div id="attachment-modal" class="modal"></div>
+
+    
+
+    <script>
+  if (typeof app === 'undefined') {
+      var app = {};
+  }
+  app.version = '8.3.2';
+  app.httpHost = 'http://www.gulixueyuan.com';
+  app.basePath = 'http://www.gulixueyuan.com';
+  app.theme = 'june';
+
+    
+  var CLOUD_FILE_SERVER = ""; 
+
+  app.config = {"api":{"weibo":{"key":"101226163"},"qq":{"key":"101226163"},"douban":{"key":""},"renren":{"key":""}},"loading_img_path":"\/assets\/img\/default\/loading.gif?version=8.3.2"};
+
+  app.arguments = {};
+      
+  app.scripts = null;
+
+  app.fileSingleSizeLimit = 10;
+  app.uploadUrl = '/file/upload';
+  app.imgCropUrl = '/file/img/crop';
+  app.lessonCopyEnabled = '1';
+  app.cloudPlayerSdkUrl = '//service-cdn.qiqiuyun.net/js-sdk/sdk-v1.js?15669971';
+  app.cloudPlayServer = '';
+  app.cloudVideoPlayerSdkUrl = '//service-cdn.qiqiuyun.net/js-sdk/video-player/sdk-v1.js?15669971';
+  app.cloudOldUploaderSdkUrl = '//service-cdn.qiqiuyun.net/js-sdk/uploader/sdk-v1.js?15669971';
+  app.cloudOldDocumentSdkUrl = '//service-cdn.qiqiuyun.net/js-sdk/document-player/v7/viewer.html?15669971';
+  app.lang = 'zh_CN';
+</script>
+
+<!--<script src="./笔记_files/translator.min.js.下载"></script>
+
+  <script src="./笔记_files/zh_CN.js.下载"></script>
+      <script src="./笔记_files/base.js.下载"></script>
+        <script src="./笔记_files/common.js.下载"></script>
+        <script src="./笔记_files/main.js.下载"></script>
+        <script src="./笔记_files/main.js(1).下载"></script>
+        <script src="./笔记_files/jquery.easypiechart.js.下载"></script>
+        <script src="./笔记_files/excanvas-compiled.js.下载"></script>
+        <script src="./笔记_files/echo-js.js.下载"></script>
+        <script src="./笔记_files/jquery-countdown.js.下载"></script>
+        <script src="./笔记_files/index.js.下载"></script>
+        <script src="./笔记_files/index.js(1).下载"></script>
+        <script src="./笔记_files/index.js(2).下载"></script>
+        <script src="./笔记_files/index.js(3).下载"></script>
+        <script src="./笔记_files/index.js(4).下载"></script>-->
+
+<script src="../../../bundles/translations/translator.min-8.3.2.js"></script>
+<script src="../../../bundles/translations/zh_CN-8.3.2.js"></script>
+<script src="../../../static-dist/app/js/common-8.3.2.js"></script>
+<script src="../../../static-dist/libs/echo-js-8.3.2.js"></script>
+<script src="../../../static-dist/libs/excanvas-compiled-8.3.2.js"></script>
+<script src="../../../static-dist/libs/base-8.3.2.js"></script>
+<script src="../../../static-dist/app/js/main-8.3.2.js"></script>
+<script src="../../../static-dist/libs/easy-pie-chart/dist/jquery.easypiechart-8.3.2.js"></script>
+<script src="../../../static-dist/libs/echo-js-8.3.2.js"></script>
+<script src="../../../static-dist/libs/jquery-countdown-8.3.2.js"></script>
+<!--内环-->
+<script src="../../../static-dist/app/js/courseset/show/index-8.3.2.js"></script>
+
+<script src="../../../static-dist/app/js/course/header-top/index-8.3.2.js"></script>
+<script src="../../../static-dist/app/js/share/index-8.3.2.js"></script>
+<script src="../../../static-dist/app/js/announcement/announcement-swiper-slide/index-8.3.2.js"></script>
+
+<script type="text/javascript">
+  window.seajsBoot && window.seajsBoot();
+</script>
+
+
+</body></html>

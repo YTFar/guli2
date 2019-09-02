@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://www.gulixueyuan.com/my/course/46/summary -->
+<html lang="zh_CN" class=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>Spring4.0 - 谷粒学院 - Java视频|大数据视频|前端视频|HTML5视频|Linux运维视频|Python视频-程序员标配IT在线学习平台 - Powered By EduSoho</title>
+      <meta name="keywords" content="
+谷粒学院,IT在线视频教程,Java视频,HTML5视频,前端视频,Python视频,大数据视频,IT在线学习">
+    <meta name="description" content="谷粉技术交流群与万千谷粉一起学习，点击加入：（群号810889203）Spring4.0是Spring推出的一个重大版本升级，进一步加强了Spring作为Java领域第一开源平台的地位。Spring4...">
+    <meta content="H57AvPHmnNVQk8AMsh2JXJYWnqViBJQaWk-jmMZ7P8g" name="csrf-token">
+    <meta content="1" name="is-login">
+    <meta content="0" name="wechat_login_bind">
+  
+
+  <meta property="qc:admins" content="240444522214751756375">
+      <link rel="icon" href="http://www.gulixueyuan.com/files/system/2017/06-21/160846e883d7292766.ico?version=8.3.2" type="image/x-icon">
+    <link rel="shortcut icon" href="http://www.gulixueyuan.com/files/system/2017/06-21/160846e883d7292766.ico?version=8.3.2" type="image/x-icon" media="screen">
+  
+  <!--[if lt IE 9]>
+    <script src="../../../static-dist/libs/html5shiv-8.3.2.js"></script>
+    <script src="../../../static-dist/es5-shim/es5-shim-8.3.2.js"></script>
+    <script src="../../../static-dist/es5-shim/es5-sham-8.3.2.js"></script>
+  <![endif]-->
+
+
+
+    <link href="../../../static-dist/app/css/bootstrap-8.3.2.css" rel="stylesheet">
+    <link href="../../../static-dist/app/css/main-8.3.2.css" rel="stylesheet">
+    <link href="../../../static-dist/app/css/main-v2-8.3.2.css" rel="stylesheet">
+
+    <link rel="stylesheet" media="screen" href="../../../themes/june/css/sggn-8.3.2.css">
+    <link rel="stylesheet" media="screen" href="../../../themes/june/css/june-blue-8.3.2.css">
+    <link rel="stylesheet" media="screen" href="../../../themes/june/css/header1-8.3.2.css">
+  </head>
+<body class="es-main-default es-nav-default course-dashboard-page">
+
+<!--[if lt IE 9]>
+<script src="../../../static-dist/libs/fix-ie-8.3.2.js"></script>
+<style>
+  .lt-ie9 {
+    overflow: hidden;
+  }
+  .ie-mask {
+    z-index: 999999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    background: #000;
+  }
+  .ie-alert-wrap {
+    position: absolute;
+    z-index: 1000000;
+    margin: -200px auto 0;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .ie-alert {
+    width: 514px;
+    height: 397px;
+    margin: 0 auto;
+  }
+  .ie-alert__chrome,
+  .ie-alert__firefox {
+    position: absolute;
+    z-index: 1000001;
+    display: block;
+    bottom: 48px;
+    width: 60px;
+    height: 80px;
+  }
+  .ie-alert__chrome {
+    left: 50%;
+    margin-left: -80px;
+  }
+  .ie-alert__firefox {
+    right: 50%;
+    margin-right: -80px;
+  }
+</style>
+<div class="ie-mask"></div>
+<div class="ie-alert-wrap">
+  <div class="ie-alert" style="background:url('/static-dist/app/img/browser/browser_update.png?version=8.3.2')">
+    <a href="http://www.baidu.com/s?wd=%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8" target="_blank" class="ie-alert__chrome"></a>
+    <a href="http://firefox.com.cn/download/" target="_blank" class="ie-alert__firefox"></a>
+  </div>
+</div>
+
+<![endif]-->
+
+  <div class="es-wrap">
+
+                  <style type="text/css">
+  @charset "UTF-8";
+.header{
+    height: 60px;
+    background-color: #282d30;
+    box-shadow: none;
+}
+.h-con{
+    height: 60px;
+    box-shadow:none;
+    background-color: #282d30;
+}
+.nav-list a{
+  color: #fff;
+}
+.userName {
+    color: #fff;
+}
+.nav-list .nav-course:hover{
+  background:#282d30;
+}
+.nav-list .nav-course.active:hover{
+  background:#61b13b;
+}
+.login-after:hover .login-after-top {
+    color:#fff;
+  background-color:#000;
+}
+
+@media (max-width: 767px) {
+    body.homepage .es-wrap, body.course-list-page .es-wrap, body.open-course-list .es-wrap, body.course-dashboard-page .es-wrap, body.login .es-wrap, body.register .es-wrap, body.my-course .es-wrap {
+        padding-top: 0;
+    }
+}
+
+</style>
+      <header class="header">
+          <div class="relative h-con">
+              <div class="logo-con absolute">
+                  <a href="../../../index.html" class="logo relative" id="logo">
+                      <img src="../../../files/system/2017/06-30/1639175a2152619987.png">
+                  </a>
+              </div>
+              <div class="slogan">
+                  <div class="slogan-t">谷粉力挺老学员推荐</div>
+                  <div class="slogan-b">尚硅谷旗下线上平台</div>
+              </div>
+              <div class="header-search">
+                  <form action="/search" method="get" id="searchForm">
+                      <div class="header-search-input-wrap">
+                          <input type="text" class="js-header-search header-search-input" placeholder="搜索课程" value=""
+                                 name="q">
+                          <span class="header-search-icon"></span>
+                      </div>
+                  </form>
+              </div>
+
+              <div class="main-width relative main-width-q">
+                  <nav class="float-right">
+                      <ul class="nav-list">
+                          <li><a href="../../../index.html" class="active">首页</a></li>
+                          <li class="relative">
+                              <a class=" nav-course" href="../../../course/explore.html">课程</a>
+                          </li>
+                          <li class="top-nav"><a href="javascript:">学习路线图</a>
+                              <div class="sub-nav">
+                                  <ul>
+                                      <li><a href="../../../path/java.html" target="_blank">Java开发</a></li>
+                                      <li><a href="../../../path/bigdata.html" target="_blank">大数据</a></li>
+                                      <li><a href="../../../path/front.html" target="_blank">前端开发</a></li>
+                                      <li><a href="../../../course/explore/linux.html" target="_blank">Linux运维</a></li>
+                                      <li><a href="../../../path/android.html" target="_blank">Android</a></li>
+                                  </ul>
+                              </div>
+                          </li>
+                          <li><a target="_blank" href="javascript:;">面授高薪班</a></li>
+                          <!-- <li>
+                              <a href="/path/join" target="_blank">讲师合作</a>
+                          </li> -->
+                      </ul>
+                  </nav>
+                  <div class="q-btn-con bg-icon" onclick="headerToggle()"></div>
+
+                  <!--登录前显示-->
+                  <div class="absolute login-box login-before">
+                      <p>
+                          <span class="bg-icon"></span>
+                          <a href="../../../login.html">登录</a>
+                          <span>/</span>
+                          <a href="../../../register.html">注册</a>
+                      </p>
+                  </div>
+                  <!--end 登录前-->
+
+
+              </div>
+          </div>
+      </header>
+            <div class="event-report" data-url="/event/dispatch" data-event-name="course.view" data-subject-type="course" data-subject-id="46" data-user-id="67691"></div>
+        
+  
+<!-- 3、加入后：任务式学习 -->
+<div class="container">
+  <ol class="breadcrumb breadcrumb-o">
+    <li><a href="../../../index.html">首页</a></li>
+          <li><a href="#">Java</a></li>
+          <li><a href="#">Spring4</a></li>
+              <li><a href="#">Spring4.0 </a></li>
+      <li class="active"> </li>
+      </ol>
+
+      <div class="es-section course-detail-section course-detail-section--normal  clearfix">
+          <div class="course-detail-top clearfix">
+                <span class="tags mrm">
+                  </span>
+        <span class="course-detail-heading">
+                      
+                                          <span class="es-qrcode top pt5 hidden-xs" data-url="/course/46/qrcode">
+              <i class="es-icon es-icon-qrcode"></i>
+              <span class="qrcode-popover">
+                <img src="http://www.gulixueyuan.com/my/course/46/summary" alt="">
+                扫二维码继续学习 二维码时效为半小时
+              </span>
+            </span>
+                  </span>
+                                <ul class="course-operation  course-operation--normal   hidden-xs hidden-sm clearfix">
+          <!--非营销页显示-->
+                                
+          <!--营销页显示-->
+          
+          <li class="es-share top">
+            <a class="btn btn-default btn-xs dropdown-toggle" href="http://www.gulixueyuan.com/my/course/46/summary" data-toggle="dropdown" title="分享">
+              <i class="es-icon es-icon-share"></i>
+            </a>
+              
+            
+<div class="dropdown-menu  js-social-share-params" data-title="Spring4.0" data-summary="谷粉技术交流群 与万千谷粉一起学习，点击加入：（群号810889203  ）Spring4.0是 S..." data-message="我正在学习《Spring4.0》，收获巨大哦，一起来学习吧！" data-url="http://www.gulixueyuan.com/course/46" data-picture="http://www.gulixueyuan.com/files/default/2018/06-14/1709299c081b334852.jpg">
+  
+  <a href="javascript:;" class="js-social-share" data-cmd="weixin" title="分享到微信" data-share="weixin" data-qrcode-url="/common/qrcode?text=http%3A//www.gulixueyuan.com/course/46"><i class="es-icon es-icon-weixin"></i></a>
+  <a href="javascript:;" class="js-social-share" data-cmd="tsina" title="分享到新浪微博" data-share="weibo"><i class="es-icon es-icon-weibo"></i></a>
+  <a href="javascript:;" class="js-social-share" data-cmd="qq" title="分享到QQ好友" data-share="qq"><i class="es-icon es-icon-qq"></i></a>
+  <a href="javascript:;" class="js-social-share" data-cmd="qzone" title="分享到QQ空间" data-share="qzone"><i class="es-icon es-icon-qzone"></i></a>
+
+</div>
+          </li>
+
+          
+
+                              			<li>
+		  <a class="btn btn-default btn-xs" data-toggle="modal" data-target="#modal" data-url="/course/show_exit_modal?action=/course/46/exit"><i class="es-icon es-icon-exit"></i>
+		  </a>
+		</li>
+	        </ul>
+
+      </div>
+        
+		<!-- 2、加入后：自由式学习 -->
+		<section class="course-freelearn-section">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="course-progress">
+        <div class="cricle-progress" id="freeprogress" data-percent="0">
+          <span class="percent">学习进度<br><span class="num">0%</span></span>
+        <!--<canvas height="181" width="181" style="height: 146px; width: 146px;"></canvas>--></div>
+      </div>
+    </div>
+    <div class="col-md-7 hidden-xs hidden-sm">
+      <ul class="clearfix text-12 course-learn-list ">
+        <li>
+          <p class="mb15 color-gray">
+            <i class="es-icon es-icon-iccheckcircleblack24px mrm"></i>已完成
+          </p>
+          <span class="text-16"><span class="color-primary">0</span> / <span class="mrl">37</span>
+          任务</span>
+        </li>
+        <li>
+          <p class="mb15 color-gray">
+            <i class="es-icon es-icon-today mrm"></i>学习有效期
+          </p>
+          <span class="text-16">
+                        永久有效
+                 </span>
+        </li>
+        <li>
+          <p class="mb15 color-gray">
+            <i class="es-icon es-icon-book mrm"></i>下一学习任务
+          </p>
+                      <a class="link-dark text-16" href="http://www.gulixueyuan.com/course/46/task/1059/show">Spring_HelloWor...</a>
+                  </li>
+      </ul>
+          </div>
+          <div class="col-md-2 hidden-xs hidden-sm pt10">
+              <a class="btn btn-primary btn-lg " href="http://www.gulixueyuan.com/course/46/task/1059/show">
+              开始学习
+          </a>
+        </div>
+      </div>
+  <div class="course-detail-section-responsive visible-xs visible-sm clearfix">
+  <ul class="clearfix">
+    <!--营销页显示-->
+        <li class="es-share top   learn-es-share ">
+      <a class=" dropdown-toggle" href="http://www.gulixueyuan.com/my/course/46/summary" data-toggle="dropdown" title="分享">
+        <i class="es-icon es-icon-share"></i>
+        <br>
+        分享
+      </a>
+        
+            
+<div class="dropdown-menu  js-social-share-params" data-title="Spring4.0" data-summary="谷粉技术交流群 与万千谷粉一起学习，点击加入：（群号810889203  ）Spring4.0是 S..." data-message="我正在学习《Spring4.0》，收获巨大哦，一起来学习吧！" data-url="http://www.gulixueyuan.com/course/46" data-picture="http://www.gulixueyuan.com/files/default/2018/06-14/1709299c081b334852.jpg">
+  
+  <a href="javascript:;" class="js-social-share" data-cmd="weixin" title="分享到微信" data-share="weixin" data-qrcode-url="/common/qrcode?text=http%3A//www.gulixueyuan.com/course/46"><i class="es-icon es-icon-weixin"></i></a>
+  <a href="javascript:;" class="js-social-share" data-cmd="tsina" title="分享到新浪微博" data-share="weibo"><i class="es-icon es-icon-weibo"></i></a>
+  <a href="javascript:;" class="js-social-share" data-cmd="qq" title="分享到QQ好友" data-share="qq"><i class="es-icon es-icon-qq"></i></a>
+  <a href="javascript:;" class="js-social-share" data-cmd="qzone" title="分享到QQ空间" data-share="qzone"><i class="es-icon es-icon-qzone"></i></a>
+
+</div>
+    </li>
+    
+  </ul>
+</div>
+<div class="text-right buy-btn-group visible-xs visible-sm">
+  <span class="mr20">完成任务：0 / 37</span>
+
+            <a class="btn btn-primary btn-lg " href="http://www.gulixueyuan.com/course/46/task/1059/show">
+              开始学习
+          </a>
+    </div>
+</section>
+	  </div>
+</div>
+
+
+  
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 col-md-8 course-detail-content">
+              
+        
+
+        <section class="es-section">
+            <div class="nav-btn-tab">
+
+                <ul class="nav nav-tabs " role="tablist">
+                    <li role="presentation" id="tasks" class="active">
+                        <a href="../../../my/course/48.html">
+                            目录
+                        </a>
+                    </li>
+                    <li role="presentation" id="threads" class="">
+                        <a href="../../../my/course/48/threads.html">
+                            话题
+                            <small>(43)</small>
+                        </a>
+                    </li>
+                    <li role="presentation" id="notes" class="">
+                        <a href="../../../my/course/48/notes.html">
+                            笔记
+                            <small>(252)</small>
+                        </a>
+                    </li>
+                    <li role="presentation" id="material" class="">
+                        <a href="../../../my/course/48/material.html">
+                            资料区
+                            <small>(1)</small>
+                        </a>
+                    </li>
+                    <li role="presentation" id="reviews" class="">
+                        <a href="../../../my/course/48/reviews.html">
+                            评价
+                            <small>(26)</small>
+                        </a>
+                    </li>
+                    <li role="presentation" id="summary" class="">
+                        <a href="../../../my/course/48/summary.html">
+                            介绍
+                        </a>
+                    </li>
+                    <li class="highlight" style="left: 0.00229994px; width: 92px;"></li></ul>
+
+            </div>
+                      
+
+<div class="es-piece">
+  <div class="piece-header">课程介绍</div>
+  <div class="piece-body p-lg clearfix">
+    <p><strong>谷粉技术交流群 </strong></p>
+
+<p><strong>与万千谷粉一起学习，点击加入：<a href="http://shang.qq.com/wpa/qunwpa?idkey=68547df5d222bc8512e589b1d088c0850f7cfe5d79cc190c462b1ed3aa88b686" target="_blank" rel="noreferrer noopener"><img alt="尚硅谷谷粉第61群" border="0" src="../../../wpa/images/group.png" title="尚硅谷谷粉第61群"></a>（群号810889203 &nbsp;）</strong></p>
+
+<p>Spring4.0是 Spring 推出的一个重大版本升级，进一步加强了 Spring 作为 Java 领域第一开源平台的地位。Spring4.0 引入了众多 Java 开发者期盼的新特性，如泛型依赖注入、SpEL、校验及格式化框架、Rest风格的 WEB 编程模型等。这些新功能实用性强、易用性高，可大幅降低 JavaEE 开发的难度，同时有效提升应用开发的优雅性。</p>
+
+  </div>
+</div>
+
+<div class="es-piece ">
+  <div class="piece-header">课程目标</div>
+  <div class="piece-body">
+    <ul class="piece-body-list">
+              <li><i class="es-icon es-icon-dot mrm"></i>
+          这些新功能实用性强、易用性高，可大幅降低 JavaEE 开发的难度，同时有效提升应用开发的优雅性。
+        </li>
+          </ul>
+  </div>
+</div>
+
+<div class="es-piece ">
+  <div class="piece-header">适合人群</div>
+  <div class="piece-body">
+    <ul class="piece-body-list">
+              <li><i class="es-icon es-icon-dot mrm"></i>
+          所有人
+        </li>
+          </ul>
+  </div>
+</div>
+
+</section>
+
+
+
+                  
+
+            
+      </div>
+
+      <div class="col-lg-3 col-md-4 course-sidebar">
+
+        
+
+
+                                                    
+                                                                                    
+                                                                  <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">最新学员</h3>
+  </div>
+  <div class="panel-body">
+    <ul class="user-avatar-list clearfix">
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/1147" data-card-url="/user/1147/card/show" data-user-id="1147" data-original-title="" title="">
+            <img class="avatar-sm" src="./介绍_files/212903fdb227154927.png">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/10828" data-card-url="/user/10828/card/show" data-user-id="10828" data-original-title="" title="">
+            <img class="avatar-sm" src="./介绍_files/10315282ebcf884740.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/60284" data-card-url="/user/60284/card/show" data-user-id="60284" data-original-title="" title="">
+            <img class="avatar-sm" src="./介绍_files/10315282ebcf884740.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/63318" data-card-url="/user/63318/card/show" data-user-id="63318" data-original-title="" title="">
+            <img class="avatar-sm" src="./介绍_files/10315282ebcf884740.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/64139" data-card-url="/user/64139/card/show" data-user-id="64139" data-original-title="" title="">
+            <img class="avatar-sm" src="./介绍_files/10315282ebcf884740.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/65606" data-card-url="/user/65606/card/show" data-user-id="65606" data-original-title="" title="">
+            <img class="avatar-sm" src="./介绍_files/201807f899e1470034.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/66435" data-card-url="/user/66435/card/show" data-user-id="66435" data-original-title="" title="">
+            <img class="avatar-sm" src="./介绍_files/10315282ebcf884740.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/67883" data-card-url="/user/67883/card/show" data-user-id="67883" data-original-title="" title="">
+            <img class="avatar-sm" src="./介绍_files/10315282ebcf884740.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/68439" data-card-url="/user/68439/card/show" data-user-id="68439" data-original-title="" title="">
+            <img class="avatar-sm" src="./介绍_files/1035462bfdef240176.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/68765" data-card-url="/user/68765/card/show" data-user-id="68765" data-original-title="" title="">
+            <img class="avatar-sm" src="./介绍_files/121926ee5ce1214195.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/68774" data-card-url="/user/68774/card/show" data-user-id="68774" data-original-title="" title="">
+            <img class="avatar-sm" src="./介绍_files/1406411db402003930.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/68777" data-card-url="/user/68777/card/show" data-user-id="68777" data-original-title="" title="">
+            <img class="avatar-sm" src="./介绍_files/10315282ebcf884740.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/68781" data-card-url="/user/68781/card/show" data-user-id="68781" data-original-title="" title="">
+            <img class="avatar-sm" src="./介绍_files/1456408b57e5970004.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/68783" data-card-url="/user/68783/card/show" data-user-id="68783" data-original-title="" title="">
+            <img class="avatar-sm" src="./介绍_files/150459bab363851043.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/68787" data-card-url="/user/68787/card/show" data-user-id="68787" data-original-title="" title="">
+            <img class="avatar-sm" src="./介绍_files/151350e6a052360455.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/68793" data-card-url="/user/68793/card/show" data-user-id="68793" data-original-title="" title="">
+            <img class="avatar-sm" src="./介绍_files/160308c958ef245299.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/68797" data-card-url="/user/68797/card/show" data-user-id="68797" data-original-title="" title="">
+            <img class="avatar-sm" src="./介绍_files/10315282ebcf884740.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/68813" data-card-url="/user/68813/card/show" data-user-id="68813" data-original-title="" title="">
+            <img class="avatar-sm" src="./介绍_files/211142e50ffe124486.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/68816" data-card-url="/user/68816/card/show" data-user-id="68816" data-original-title="" title="">
+            <img class="avatar-sm" src="./介绍_files/10315282ebcf884740.jpg">
+          </a>
+        </li>
+              <li>
+          <a class=" js-user-card" href="http://www.gulixueyuan.com/user/68821" data-card-url="/user/68821/card/show" data-user-id="68821" data-original-title="" title="">
+            <img class="avatar-sm" src="./介绍_files/2333117740da058935.jpg">
+          </a>
+        </li>
+          </ul>
+  </div>
+</div>
+
+                                                                    
+<div class="panel panel-default">
+
+  <div class="panel-heading">
+    <h3 class="panel-title"><i class="es-icon es-icon-recentactors"></i>学员动态</h3>
+  </div>
+
+  <div class="panel-body">
+                          <div class="media media-number-o color-gray text-overflow">
+                <a class="link-dark " href="http://www.gulixueyuan.com/user/67458">Wuli小猪</a>
+  
+            
+  完成了 <a class="link-dark" href="http://www.gulixueyuan.com/course/46/task/1071/show?from=student_status" title="Spring_通过注解配置Bean(1)">Spring_通过注解配置Be...</a>
+
+          </div>
+                                 <div class="media media-number-o color-gray text-overflow">
+                <a class="link-dark " href="http://www.gulixueyuan.com/user/67744">nick_</a>
+  
+            
+  开始学习 <a class="link-dark" href="http://www.gulixueyuan.com/course/46/task/1088/show?from=student_status" title="Spring_整合Hibernate准备">Spring_整合Hibern...</a>
+
+          </div>
+                                 <div class="media media-number-o color-gray text-overflow">
+                <a class="link-dark " href="http://www.gulixueyuan.com/user/67744">nick_</a>
+  
+            
+  完成了 <a class="link-dark" href="http://www.gulixueyuan.com/course/46/task/1087/show?from=student_status" title="Spring_使用XML文件的方式配置事务">Spring_使用XML文件的...</a>
+
+          </div>
+                                 <div class="media media-number-o color-gray text-overflow">
+                <a class="link-dark " href="http://www.gulixueyuan.com/user/62401">songning</a>
+  
+            
+  开始学习 <a class="link-dark" href="http://www.gulixueyuan.com/course/46/task/1085/show?from=student_status" title="Spring_事务的传播行为">Spring_事务的传播行为</a>
+
+          </div>
+                                 <div class="media media-number-o color-gray text-overflow">
+                <a class="link-dark " href="http://www.gulixueyuan.com/user/62401">songning</a>
+  
+            
+  完成了 <a class="link-dark" href="http://www.gulixueyuan.com/course/46/task/1084/show?from=student_status" title="Spring_声明式事务">Spring_声明式事务</a>
+
+          </div>
+               
+      </div>
+
+</div>
+                                    </div>
+
+    </div>
+  </div>
+
+        
+    
+
+  
+
+          <div class="sgg_bot">
+    <div class="sgg_bot1">
+      <div class="sgg_bot1topbig">
+          <div class="sgg_bot1top">
+              <div class="sgg_bottopimg"><img src="../../../themes/june/img/bot1.png">业界大牛亲自授课</div>
+              <div class="sgg_bottopimg"><img src="../../../themes/june/img/bot2.png">前沿技术实时更新</div>
+              <div class="sgg_bottopimg sgg_bottopimg3"><img src="../../../themes/june/img/bot3.png">足不出户免费学编程</div>
+          </div>
+      </div>
+      <div class="sgg_botcenter">
+        <div class="sgg_botleft">
+            <ul>
+                <li><b>新手入门</b></li>
+                <li><a href="http://www.gulixueyuan.com/register?goto=/my/course/46/summary">新用户注册</a></li>
+                <li><a href="http://www.gulixueyuan.com/login?goto=/my/course/46/summary">用户登录</a></li>
+                <li><a href="http://www.gulixueyuan.com/password/reset">找回密码</a></li>
+            </ul>          
+            <ul>
+                <li><b>关于我们</b></li>
+                <li><a href="http://www.atguigu.com/teacher.shtml" target="_blank">名师团队</a></li>
+                <li><a href="http://www.atguigu.com/news.shtml" target="_blank">新闻动态</a></li>
+                <li><a href="http://www.atguigu.com/zhaopin.shtml" target="_blank">合作企业</a></li>
+            </ul>
+            <ul>
+                <li><b>资源下载</b></li>
+                <li><a href="http://www.atguigu.com/download.shtml" target="_blank">视频下载</a></li>
+                <li><a href="http://www.atguigu.com/opensource.shtml" target="_blank">资料下载</a></li>
+                <li><a href="http://www.atguigu.com/opensource.shtml#2" target="_blank">工具下载</a></li>
+            </ul>
+            <ul>
+                <li><b>联系我们</b></li>
+                <li><a href="http://search.51job.com/list/co,c,3261804,000000,10,1.html" target="_blank">工作机会</a></li>
+                <li><a href="http://www.atguigu.com/join.shtml" target="_blank">招贤纳师</a></li>
+                <li><a href="http://www.gulixueyuan.com/page/contacts" target="_blank">联系方式</a></li>
+            </ul>
+        </div>
+            <div class="sgg_botright">
+                <img src="../../../themes/june/img/wx.png" width="110" height="110" alt="关注尚硅谷微信 一键下载全部视频教程" title="关注尚硅谷微信 一键下载全部视频教程">
+                <p>关注尚硅谷微信</p>
+                <p>一键下载全部视频教程</p>
+            </div>
+        </div>
+          </div>
+</div>
+        <div class="sgg_botbotbg">
+          <div class="sgg_botbot">
+          <p>
+            
+            
+            ©2018课程版权均归<a href="http://www.gulixueyuan.com/">谷粒学院</a>所有&nbsp;            <a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备17055252号</a>
+                      </p>
+          </div>
+        </div>
+
+<!-- toolbar -->
+<style type="text/css">
+.toolbar {
+  position:fixed;
+  right:10px;
+  bottom:4%;
+  z-index:1020;
+  -webkit-transition:all .3s;
+  -moz-transition:all .3s;
+  -ms-transition:all .3s;
+  -o-transition:all .3s;
+  transition:all .3s
+}
+.toolbarbox {
+  width:52px;
+  background:#fff;
+  position:fixed;
+  right:0;
+  bottom: 10px;
+  color:#fff
+}
+.toolbarbox img {
+  display: block;
+  border:0;
+  max-width:100%;
+  margin: 5px auto;
+}
+
+.mobel {
+  width:52px;
+  height:56px;
+  text-align:center;
+  position:relative;
+  cursor:pointer
+}
+.mobel >a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.tb-qq{
+    background: url(../../../themes/june/img/toolbar/qq-gray-8.3.2.png) no-repeat center center;
+}
+.tb-qq:hover{
+    background: url(../../../themes/june/img/toolbar/qq-green-8.3.2.png) no-repeat center center;
+}
+.tb-tel{
+    background: url(../../../themes/june/img/toolbar/phone-8.3.2.png) no-repeat center center;
+}
+.tb-tel:hover{
+    background: url(../../../themes/june/img/toolbar/phone-green-8.3.2.png) no-repeat center center;
+}
+.tb-mail{
+    background: url(../../../themes/june/img/toolbar/mail-gray-8.3.2.png) no-repeat center center;
+}
+.tb-mail:hover{
+    background: url(../../../themes/june/img/toolbar/mail-green-8.3.2.png) no-repeat center center;
+}
+
+.tb-zx{
+    background: url(../../../themes/june/img/toolbar/zx-green-8.3.2.png) no-repeat center center;
+}
+.tb-zx a,.tb-zx a:hover,.tb-zx a:active,.tb-zx a:visited{
+    color: #fff;
+}
+
+.tb-wx{
+    background: url(../../../themes/june/img/toolbar/weixin-gray-8.3.2.png) no-repeat center center;
+}
+.tb-wx:hover{
+    background: url(../../../themes/june/img/toolbar/weixin-green-8.3.2.png) no-repeat center center;
+}
+.tb-top{
+    background: url(../../../themes/june/img/toolbar/top-gray-8.3.2.png) no-repeat center center;
+}
+.tb-top:hover{
+    background: url(../../../themes/june/img/toolbar/top-green-8.3.2.png) no-repeat center center;
+}
+
+.mobel:hover .hidemobelBox{
+  display: block;
+}
+.hidemobelBox {
+  /*width:110px;
+  padding:10px;*/
+  background:none;
+  display:none;
+  position:absolute;
+  right:50px;
+  top:17px;
+ 
+}
+.hidemobelBox-content{
+    width:110px;
+    padding:10px;
+    background:#fff;
+    position:relative;
+    cursor:pointer;
+    font-weight:700;
+    text-align:center;
+    line-height:30px;
+    color: #999;
+    font-size: 12px;
+    margin-right: 15px;
+    position: relative;
+}
+.hidemobelBox a{
+  cursor:pointer;
+  font-weight:700;
+  text-align:left;
+  line-height:30px;
+  color: #999;
+}
+
+
+.tb-wx .hidemobelBox {
+  padding-top: 8px;
+  height:auto;
+  text-align:center;
+  line-height: 25px;
+  font-size: 12px;
+  top: -35px;
+}
+.tb-wx .hidemobelBox:after {
+ 
+  top:24px;
+ 
+}
+.tb-wx .hidemobelBox img{
+  width: 100%;
+  margin: 0;
+}
+
+.tb-wx .hidemobelBox-content:after {
+  top:50px;
+}
+
+
+.hidemobelBox-content:after {
+  content:'';
+  position:absolute;
+  top:6px;
+  right:-8px;
+  display:block;
+  border-top:8px solid transparent;
+  border-bottom:8px solid transparent;
+  border-left:8px solid #fff
+}
+
+.tool-line {
+  width:25px;
+  height:1px;
+  border-bottom:1px solid #e7e7e7;
+  margin:0 auto;
+}
+
+@-webkit-keyframes ball-scale {
+  0% {
+    -webkit-transform:scale(0);
+    transform:scale(0)
+  }
+  100% {
+    -webkit-transform:scale(1);
+    transform:scale(1);
+    opacity:0
+  }
+}
+
+@keyframes ball-scale {
+  0% {
+    -webkit-transform:scale(0);
+    transform:scale(0)
+  }
+  100% {
+    -webkit-transform:scale(1);
+    transform:scale(1);
+    opacity:0
+  }
+}
+
+.hidemsg {
+  width:210px;
+  height:40px;
+  line-height:28px;
+  background:#10c46e;
+  text-align:center;
+  overflow:hidden
+}
+.hidemsg div {
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:auto;
+  pointer-events:none;
+  background-color:#fff;
+  -webkit-border-radius:100%;
+  -moz-border-radius:100%;
+  -o-border-radius:100%;
+  -ms-border-radius:100%;
+  border-radius:100%;
+  -webkit-animation-fill-mode:both;
+  -moz-animation-fill-mode:both;
+  -ms-animation-fill-mode:both;
+  -o-animation-fill-mode:both;
+  animation-fill-mode:both;
+  display:inline-block;
+  width:204px;
+  height:204px;
+  -webkit-animation:ball-scale 1s 0s ease-in-out infinite;
+  -moz-animation:ball-scale 1s 0s ease-in-out infinite;
+  -ms-animation:ball-scale 1s 0s ease-in-out infinite;
+  -o-animation:ball-scale 1s 0s ease-in-out infinite;
+  animation:ball-scale 1s 0s ease-in-out infinite
+}
+.hidemsg p {
+  line-height:40px;
+  color:#fff;
+  font-weight:700;
+  font-size:16px
+}
+.hidemsgAfter {
+  width:225px;
+  height:40px;
+  position:relative;
+  left:-222px;
+  top:-45px;
+  overflow:hidden;
+  cursor:pointer
+}
+.hidemsgAfter :after {
+  content:'';
+  position:absolute;
+  top:11px;
+  right:7px;
+  display:block;
+  border-top:8px solid transparent;
+  border-bottom:8px solid transparent;
+  border-left:8px solid #10c46e
+}
+
+@media (max-width: 767px) {
+   .toolbar{
+    display: none;
+   }
+}
+
+</style>
+
+<div class="toolbar">
+<div class="toolbarbox">
+
+
+  <div class="mobel tb-zx">
+    <a href="https://tb.53kf.com/code/client/10007377/1" target="_blank">
+    </a>
+    <div class="hidemsgAfter"><div class="hidemsg"><p><a target="_blank" href="https://tb.53kf.com/code/client/10007377/1">现在就与学习导师聊一聊</a></p><div></div></div></div>
+  </div>
+  <div class="tool-line"></div>
+
+  
+  <div class="mobel tb-qq">
+    <a href="https://jq.qq.com/?_wv=1027&amp;k=5ckaUWz" target="_blank">
+    </a>
+    <div class="hidemobelBox">
+      <div class="hidemobelBox-content">
+        <a href="https://jq.qq.com/?_wv=1027&amp;k=5ckaUWz" target="_blank">
+             <img src="../../../themes/june/img/toolbar/qqun-8.3.2.png">
+          加入技术交流群
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="tool-line"></div>
+
+  <div class="mobel tb-wx">
+    <div class="hidemobelBox">
+      <div class="hidemobelBox-content">
+        <img src="../../../themes/june/img/toolbar/weixin-2-8.3.2.png">
+  关注微信
+      </div>
+  </div>
+  </div>
+  <div class="tool-line"></div>
+  <div class="mobel tb-top">
+    <a href="http://www.gulixueyuan.com/my/course/46/summary#">
+      </a>
+  </div>
+</div>
+</div>        
+<!--<script src="./介绍_files/push.js.下载"></script>--><script type="text/javascript">
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1264603569'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/stat.php%3Fid%3D1264603569' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1264603569"><a href="https://www.cnzz.com/stat/website.php?web_id=1264603569" target="_blank" title="站长统计">站长统计</a></span><script src="./介绍_files/stat.php" type="text/javascript"></script><script src="./介绍_files/core.php" charset="utf-8" type="text/javascript"></script>    
+        
+      </div>
+
+        
+    
+        
+      
+  <div id="login-modal" class="modal" data-url="/login/ajax"></div>
+  <div id="modal" class="modal"></div>
+  <div id="attachment-modal" class="modal"></div>
+
+    
+
+    <script>
+  if (typeof app === 'undefined') {
+      var app = {};
+  }
+  app.version = '8.3.2';
+  app.httpHost = 'http://www.gulixueyuan.com';
+  app.basePath = 'http://www.gulixueyuan.com';
+  app.theme = 'june';
+
+    
+  var CLOUD_FILE_SERVER = ""; 
+
+  app.config = {"api":{"weibo":{"key":"101226163"},"qq":{"key":"101226163"},"douban":{"key":""},"renren":{"key":""}},"loading_img_path":"\/assets\/img\/default\/loading.gif?version=8.3.2"};
+
+  app.arguments = {};
+      
+  app.scripts = null;
+
+  app.fileSingleSizeLimit = 10;
+  app.uploadUrl = '/file/upload';
+  app.imgCropUrl = '/file/img/crop';
+  app.lessonCopyEnabled = '1';
+  app.cloudPlayerSdkUrl = '//service-cdn.qiqiuyun.net/js-sdk/sdk-v1.js?15671303';
+  app.cloudPlayServer = '';
+  app.cloudVideoPlayerSdkUrl = '//service-cdn.qiqiuyun.net/js-sdk/video-player/sdk-v1.js?15671303';
+  app.cloudOldUploaderSdkUrl = '//service-cdn.qiqiuyun.net/js-sdk/uploader/sdk-v1.js?15671303';
+  app.cloudOldDocumentSdkUrl = '//service-cdn.qiqiuyun.net/js-sdk/document-player/v7/viewer.html?15671303';
+  app.lang = 'zh_CN';
+</script>
+
+<!--<script src="./介绍_files/translator.min.js.下载"></script>
+
+  <script src="./介绍_files/zh_CN.js.下载"></script>
+      <script src="./介绍_files/base.js.下载"></script>
+        <script src="./介绍_files/common.js.下载"></script>
+        <script src="./介绍_files/main.js.下载"></script>
+        <script src="./介绍_files/main.js(1).下载"></script>
+        <script src="./介绍_files/jquery.easypiechart.js.下载"></script>
+        <script src="./介绍_files/excanvas-compiled.js.下载"></script>
+        <script src="./介绍_files/echo-js.js.下载"></script>
+        <script src="./介绍_files/jquery-countdown.js.下载"></script>
+        <script src="./介绍_files/index.js.下载"></script>
+        <script src="./介绍_files/index.js(1).下载"></script>
+        <script src="./介绍_files/index.js(2).下载"></script>
+        <script src="./介绍_files/index.js(3).下载"></script>-->
+
+<script src="../../../bundles/translations/translator.min-8.3.2.js"></script>
+<script src="../../../bundles/translations/zh_CN-8.3.2.js"></script>
+<script src="../../../static-dist/app/js/common-8.3.2.js"></script>
+<script src="../../../static-dist/libs/echo-js-8.3.2.js"></script>
+<script src="../../../static-dist/libs/excanvas-compiled-8.3.2.js"></script>
+<script src="../../../static-dist/libs/base-8.3.2.js"></script>
+<script src="../../../static-dist/app/js/main-8.3.2.js"></script>
+<script src="../../../static-dist/libs/easy-pie-chart/dist/jquery.easypiechart-8.3.2.js"></script>
+<script src="../../../static-dist/libs/echo-js-8.3.2.js"></script>
+<script src="../../../static-dist/libs/jquery-countdown-8.3.2.js"></script>
+<!--内环-->
+<script src="../../../static-dist/app/js/courseset/show/index-8.3.2.js"></script>
+
+<script src="../../../static-dist/app/js/course/header-top/index-8.3.2.js"></script>
+<script src="../../../static-dist/app/js/share/index-8.3.2.js"></script>
+<script src="../../../static-dist/app/js/announcement/announcement-swiper-slide/index-8.3.2.js"></script>
+
+
+<script type="text/javascript">
+  window.seajsBoot && window.seajsBoot();
+</script>
+
+
+</body></html>

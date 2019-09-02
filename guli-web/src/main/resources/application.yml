@@ -1,0 +1,24 @@
+server:
+  port: 8000
+
+eureka:
+  client:
+    #实例是否在eureka服务器上注册自己的信息以供其他服务发现，默认为true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:6001/eureka
+
+spring:
+  thymeleaf:
+      encoding: utf-8
+      cache: false
+      suffix: .html
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
+
+    #映射静态资源
+    static-path-pattern: /**
+  resources:
+    static-locations: classpath:/templates/,classpath:/templates/showWeb/,classpath:/META-NF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
