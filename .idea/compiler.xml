@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/guli-eureka/src/main/java/com/guli/EurekaApplication.java" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="guli-web" />
+        <module name="guli-eureka" />
+        <module name="guli-provider-product" />
+        <module name="guli-utils" />
+        <module name="guli-model" />
+        <module name="guli-provider-user" />
+        <module name="guli-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

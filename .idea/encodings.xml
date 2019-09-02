@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-provider-product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-provider-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-web" charset="UTF-8" />
+  </component>
+</project>
