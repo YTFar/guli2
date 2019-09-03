@@ -1,5 +1,5 @@
 server:
-  port: 8000
+  port: 8002
 
 eureka:
   client:
@@ -9,6 +9,8 @@ eureka:
       defaultZone: http://localhost:6001/eureka
 
 spring:
+  application:
+    name: guli-web
   thymeleaf:
       encoding: utf-8
       cache: false
@@ -22,3 +24,9 @@ spring:
     static-path-pattern: /**
   resources:
     static-locations: classpath:/templates/,classpath:/templates/showWeb/,classpath:/META-NF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
+
+  ribbon:
+    ReadTimeout: 60000
+    ConnectTimeout: 60000
+    MaxAutoRetries: 0
+    MaxAutoRetriesNextServer: 1

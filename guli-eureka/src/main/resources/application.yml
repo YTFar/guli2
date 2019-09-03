@@ -2,9 +2,9 @@ server:
   port: 6001
 
 eureka:
-#  server:
-#    enable-self-preservation: false   #禁用保护
-#    eviction-interval-timer-in-ms: 10000
+  server:
+    enable-self-preservation: false   #禁用保护
+    eviction-interval-timer-in-ms: 10000
   instance:
     hostname: localhost              #eureka服务端的实例名称(单机)
     #hostname: eureka6001.com          #eureka服务端的实例名称(集群)

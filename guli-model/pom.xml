@@ -11,5 +11,13 @@
 
     <artifactId>guli-model</artifactId>
 
+    <dependencies>
+    <!--        MybatisPlus-->
+    <dependency>
+        <groupId>com.baomidou</groupId>
+        <artifactId>mybatis-plus-boot-starter</artifactId>
+        <version>3.1.1</version>
+    </dependency>
+    </dependencies>
 
 </project>
