@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.guli.mapper.GuliSubdirectoryMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.guli.pojo.GuliSubdirectory">
+        <id column="subdirectory_id" property="subdirectoryId" />
+        <result column="catalogue_id" property="catalogueId" />
+        <result column="subdirectory_name" property="subdirectoryName" />
+        <result column="subdirectory_type" property="subdirectoryType" />
+        <result column="subdirectory_time" property="subdirectoryTime" />
+        <result column="subdirectory_path" property="subdirectoryPath" />
+    </resultMap>
+
+</mapper>

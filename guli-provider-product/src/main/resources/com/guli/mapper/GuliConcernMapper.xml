@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.guli.mapper.GuliConcernMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.guli.pojo.GuliConcern">
+        <id column="concern_id" property="concernId" />
+        <result column="user_id" property="userId" />
+        <result column="fans_id" property="fansId" />
+    </resultMap>
+
+</mapper>

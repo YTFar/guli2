@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.guli.mapper.GuliOrderMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.guli.pojo.GuliOrder">
+        <id column="order_id" property="orderId" />
+        <result column="item_id" property="itemId" />
+        <result column="order_number" property="orderNumber" />
+        <result column="order_price" property="orderPrice" />
+        <result column="order_status" property="orderStatus" />
+        <result column="order_discount" property="orderDiscount" />
+        <result column="order_create_time" property="orderCreateTime" />
+        <result column="order_trade_name" property="orderTradeName" />
+        <result column="order__trade_price" property="orderTradePrice" />
+        <result column="order_validity" property="orderValidity" />
+        <result column="order_update_time" property="orderUpdateTime" />
+    </resultMap>
+
+</mapper>

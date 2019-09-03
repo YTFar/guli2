@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.guli.mapper.GuliNoteMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.guli.pojo.GuliNote">
+        <id column="note_id" property="noteId" />
+        <result column="user_id" property="userId" />
+        <result column="catalogue_id" property="catalogueId" />
+        <result column="note_content" property="noteContent" />
+        <result column="note_create_time" property="noteCreateTime" />
+        <result column="note_like_number" property="noteLikeNumber" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.guli.mapper.GuliEvaluateMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.guli.pojo.GuliEvaluate">
+        <id column="evaluate_id" property="evaluateId" />
+        <result column="item_id" property="itemId" />
+        <result column="evaluate_content" property="evaluateContent" />
+        <result column="evaluate_rating" property="evaluateRating" />
+        <result column="evaluate_create_time" property="evaluateCreateTime" />
+    </resultMap>
+
+</mapper>
